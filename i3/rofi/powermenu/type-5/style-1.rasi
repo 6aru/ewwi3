@@ -1,0 +1,153 @@
+@import "~/.cache/m3-colors/rofi.rasi"
+
+/**
+ *
+ * Author : Aditya Shakya (adi1090x)
+ * Github : @adi1090x
+ *
+ * Rofi Theme File
+ * Rofi Version: 1.7.3
+ **/
+
+/*****----- Configuration -----*****/
+configuration {
+    show-icons:                 false;
+}
+
+/*****----- Global Properties -----*****/
+* {
+    font:                        "JetBrains Mono Nerd Font 10";
+    border-color:                transparent;
+    separatorcolor:              transparent;
+}
+
+/*
+USE_BUTTONS=YES
+*/
+
+/*****----- Main Window -----*****/
+window {
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    width:                       800px;
+    x-offset:                    0px;
+    y-offset:                    0px;
+
+    padding:                     0px;
+    border-radius:               20px;
+    cursor:                      "default";
+    background-color:            @background;
+}
+
+/*****----- Main Box -----*****/
+mainbox {
+    enabled:                     true;
+    spacing:                     0px;
+    margin:                      0px;
+    padding:                     0px;
+    border:                      0px solid;
+    border-radius:               0px;
+    border-color:                transparent;
+    background-color:            transparent;
+    children:                    [ "inputbar", "listview", "message" ];
+}
+
+/*****----- Inputbar -----*****/
+inputbar {
+    enabled:                     true;
+    spacing:                     0px;
+    padding:                     60px 70px;
+    background-color:            transparent;
+    background-image:            url("~/.config/m3-colors/current-rofi.jpg", width);
+    children:                    [ "textbox-prompt-colon", "dummy","prompt"];
+}
+
+dummy {
+    background-color:            transparent;
+}
+
+textbox-prompt-colon {
+    enabled:                     true;
+    expand:                      false;
+    str:                         "  System";
+    padding:                     12px;
+    border-radius:               12px;
+    background-color:            @urgent-background;
+    text-color:                  @urgent-foreground;
+}
+
+prompt {
+    enabled:                     true;
+    padding:                     12px;
+    border-radius:               12px;
+    background-color:            @active-background;
+    text-color:                  @active-foreground;
+}
+
+/*****----- Listview -----*****/
+listview {
+    enabled:                     true;
+    columns:                     6;
+    lines:                       1;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-height:                true;
+    fixed-columns:               true;
+
+    spacing:                     15px;
+    margin:                      15px;
+    background-color:            transparent;
+    border:                      0px solid;
+    border-color:                transparent;
+    cursor:                      "default";
+}
+
+/*****----- Elements -----*****/
+element {
+    enabled:                     true;
+    padding:                     30px 10px;
+    border:                      0px solid;
+    border-radius:               12px;
+    border-color:                transparent;
+    background-color:            @alternate-normal-background;
+    text-color:                  @foreground;
+    cursor:                      pointer;
+}
+
+element-text {
+    font:                        "feather bold 32";
+    background-color:            transparent;
+    text-color:                  inherit;
+    cursor:                      inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+}
+
+element selected.normal {
+    background-color:            @selected-normal-background;
+    text-color:                  @selected-normal-foreground;
+}
+
+/*****----- Message -----*****/
+message {
+    enabled:                     true;
+    margin:                      0px 0px 0px 0px;
+    padding:                     15px;
+    border:                      0px solid;
+    border-radius:               12px;
+    border-color:                transparent;
+    background-color:            @alternate-normal-background;
+    text-color:                  @foreground;
+}
+
+textbox {
+    background-color:            inherit;
+    text-color:                  inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+}

@@ -1,0 +1,264 @@
+;; Eww Bar Configuration
+
+(deflisten icon-theme
+  :initial "light"
+  `bash -c "cat ~/.config/eww/.icon-theme; inotifywait -e close_write ~/.config/eww/.icon-theme -m --format '' | while read; do cat ~/.config/eww/.icon-theme; done"`)
+
+(deflisten ws_list
+  :initial "[1,2,3]"
+  "bash ~/.config/eww/scripts/get-dotfiles-config.sh")
+
+(deflisten workspaces :initial "[]" 
+  "bash ~/.config/eww/scripts/get-workspaces.sh")
+
+(deflisten current-mode :initial "default"
+  "~/.config/eww/scripts/i3-mode.sh")
+
+;; Definisi variable untuk window title
+(deflisten active_window
+  "~/.config/eww/scripts/xwindow-clickable.sh")
+
+;; Definisi variable untuk system variable
+(deflisten system_status
+  :initial '{"wifi_icon":"","wifi_desc":"","wifi_connected":false,"bat_icon":"","bat_desc":"","bat_capacity":0,"bat_charging":false,"bright_icon":"","bright_desc":"","bright_pct":0,"vol_icon":"","vol_desc":"","vol_pct":0,"vol_muted":false}'
+  "python3 ~/.config/eww/scripts/system-monitor.py")
+
+;; --------- WIDGET --------------------------------------------------
+
+(defwidget mode-indicator []
+  (box :class "mode-indicator"
+       :valign "center"
+       :vexpand false
+       :visible {current-mode != "default"}
+    (label :class "indicator-i3"
+           :text "${current-mode}")))
+
+(defwidget workspaces_widget []
+  (box :class "i3-section"
+       :spacing 2
+       :valign "center"
+       :vexpand false
+    (for num in ws_list
+      (button
+        :class "ws-btn ${jq(workspaces, ".[] | select(.num == ${num}) | .focused", "r") == "true" ? "focused" : ""} ${jq(workspaces, ".[] | select(.num == ${num}) | .urgent", "r") == "true" ? "urgent" : ""} ${jq(workspaces, ".[] | select(.num == ${num}) | .visible", "r") == "true" ? "visible" : ""}"
+        :onclick "i3-msg 'workspace number ${num}'"
+        "${num}"))))
+
+;; Main Bar Widget
+(defwidget bar-widget []
+  (centerbox :class "bar-container"
+             :orientation "h"
+             :valign "center"
+             :vexpand false
+
+    ;; ----------------------------------------------------------------
+    ;; Bagian Kiri (start)
+    ;; ----------------------------------------------------------------
+    (box :class "bar-section-left"
+         :orientation "h"
+         :space-evenly false
+         :halign "start"
+         :spacing 10
+         :valign "center"
+         :vexpand false
+
+      (eventbox :onclick "eww open --toggle start_menu"
+                :cursor "pointer"
+        (image :path "${EWW_CONFIG_DIR}/assets/CachyOS-${icon-theme}.svg"
+               :image-width 20
+               :image-height 20))
+        
+      (workspaces_widget)
+
+      (eventbox :onhover "eww update show_weather_tooltip=true && eww open weather-tooltip-window"
+                :onhoverlost "eww update show_weather_tooltip=false && eww close weather-tooltip-window"
+        (box :orientation "h" 
+             :space-evenly false
+             :spacing 10
+          (label :class "weather-bar"
+                 :text WEATHER_ICON)
+          (label :class "text-weather-bar"
+                 :text WEATHER_DESC)
+        )
+      )
+
+      (mode-indicator)
+    )
+    
+    ;; ----------------------------------------------------------------
+    ;; Bagian Tengah (center) 
+    ;; ----------------------------------------------------------------
+    (box :class "bar-section-center"
+         :orientation "h"
+         :halign "center"
+         :space-evenly false
+         :valign "center"
+         :vexpand false
+      
+      (eventbox :onclick "eww open --toggle performance_monitor"
+                :timeout "2s"
+                :cursor "pointer"
+        (box :class "windows-center-bar"
+             :orientation "h"
+             :halign "center"
+             :space-evenly false
+             :valign "center"
+             :vexpand false
+          (label :class "icon-center-bar"
+                 :text " ")
+          (label :class "center-text"
+                 :text active_window)
+        )
+      )
+    )    
+    
+    ;; ----------------------------------------------------------------
+    ;; Bagian Kanan (end)
+    ;; ----------------------------------------------------------------
+    (box :class "bar-section-right"
+         :orientation "h"
+         :space-evenly false
+         :halign "end"
+         :spacing 5
+         :valign "center"
+         :vexpand false
+
+      (box :class "system-tray-bar"
+           :valign "center"
+           :vexpand false
+        (systray :icon-size 12
+                 :spacing 8)
+      )
+
+      (box :class "status-section-right"
+             :orientation "h"
+             :space-evenly false
+             :halign "end"
+             :spacing 10
+             :valign "center"
+             :vexpand false
+
+          ;; --- 1. WiFi ---
+          (eventbox :onhover "eww update show_wifi_tooltip=true && eww open wifi-tooltip-window"
+                    :onhoverlost "eww update show_wifi_tooltip=false && eww close wifi-tooltip-window"
+            (box :orientation "h"
+                 :space-evenly false
+                 :spacing 0
+              (label :class "right-icon"
+                     :text {system_status.wifi_icon})
+              (label :class "right-text"
+                     :text {system_status.wifi_desc})
+            )
+          )
+      )
+
+      (box :class "status-section-right"
+             :orientation "h"
+             :space-evenly false
+             :halign "end"
+             :spacing 10
+             :valign "center"
+             :vexpand false
+
+          ;; --- 2. Battery ---
+          (eventbox :onhover "eww update show_battery_tooltip=true && eww open battery-tooltip-window"
+                    :onhoverlost "eww update show_battery_tooltip=false && eww close battery-tooltip-window"
+            (box :orientation "h"
+                 :spacing 5
+                 :space-evenly false
+              (label :class "right-icon"
+                     :text {system_status.bat_icon})
+              (label :class "right-text"
+                     :text {system_status.bat_desc})
+            )
+          )
+      )
+
+      (eventbox :onclick "eww open --toggle notification_center"
+                :cursor "pointer"
+        (box :class "notification-section-right"
+             :orientation "h"
+             :space-evenly true
+             :halign "end"
+             :spacing 10
+             :valign "center"
+             :vexpand false
+        (label :class "notification-icon"
+               :text {(arraylength(notification_recent) + arraylength(notification_earlier)) > 0 ? "󰂚" : "󰂜"})))
+
+      (eventbox :onclick "eww open --toggle media_window"
+                :cursor "pointer"
+        (box :class "media-section"
+             :orientation "h"
+             :space-evenly true
+             :halign "end"
+             :spacing 10
+             :valign "center"
+             :vexpand false
+          (label :class "media-icon"
+                 :text {media_info.status == "Playing" ? "󰎈" : "󰎇"})))
+
+      (box :class "status-section-right"
+             :orientation "h"
+             :space-evenly false
+             :halign "end"
+             :spacing 10
+             :valign "center"
+             :vexpand false
+
+          ;; --- 3. Brightness ---
+          (box :orientation "h"
+                 :spacing 15
+            (label :class "right-icon"
+                     :text {system_status.bright_icon})
+            (label :class "right-icon"
+                     :text {system_status.vol_icon}))
+      ) 
+
+      (box :class "time-bar"
+           :orientation "h"
+           :space-evenly false
+           :spacing 0
+           :valign "center"
+           :vexpand false
+        (label :class "time-icon" 
+               :text " ")
+        (label :class "time-text"
+               :valign "center"
+               :vexpand false 
+               :text {datetime.time})
+      )
+
+      (eventbox :onclick "~/.config/eww/scripts/toggle-control-center.sh & disown"
+                :timeout "2s"     
+                :cursor "pointer"
+        (box :class "panel-bar"
+           :orientation "h"
+           :space-evenly false
+           :spacing 0
+           :valign "center"
+           :vexpand false
+          (label :class "time-text"
+                 :valign "center"
+                 :vexpand false 
+                 :text " " )
+        )
+      )
+    )
+  )
+)
+
+;; Window Definition
+(defwindow bar
+  :monitor 0
+  :geometry (geometry :x "0%"
+                      :y "10px"
+                      :width "100%"
+                      :height "27px"
+                      :anchor "top left")
+  :stacking "fg"
+  :exclusive false
+  :focusable false
+  :windowtype "dock"
+  :wm-ignore true
+  (bar-widget))

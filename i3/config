@@ -108,19 +108,16 @@ font pango:JetBrainsMono Nerd Font 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec ghostty
 
 # start file manager
-bindsym $mod+Shift+f exec dolphin
+bindsym $mod+Shift+f exec thunar
 
 # Browser binding
-bindsym $mod+b exec firefox
+bindsym $mod+b exec firefox-esr
 
 # start powermenu
-bindsym $mod+Shift+e exec ~/.config/rofi/powermenu/type-5/powermenu.sh
-
-# start wpg
-bindsym $mod+Shift+b exec ~/.config/rofi/wpg-select.sh
+bindsym $mod+Shift+e exec ~/.config/i3/rofi/powermenu/type-5/powermenu.sh
 
 # Full screenshot
 bindsym --release Print exec scrot ~/Pictures/Screenshots/screenshot_%Y%m%d_%H%M%S.png
@@ -248,7 +245,7 @@ mode "voice" {
 }
 
 # Trigger untuk masuk mode (Mod+M)
-bindsym $mod+m mode "voice"; exec --no-startup-id ~/.config/eww/scripts/bridge.sh
+bindsym $mod+m mode "voice"; exec --no-startup-id ~/.config/i3/eww/scripts/bridge.sh
 
 # Set screen timeout
 exec --no-startup-id xset s 600 600
@@ -256,17 +253,10 @@ exec --no-startup-id xset s 600 600
 # Auto lock dengan xss-lock
 exec --no-startup-id xss-lock -- lock
 
-exec --no-startup-id ~/m3-colors-switch.sh
-
-exec --no-startup-id kbuildsycoca6 --noincremental
-exec --no-startup-id /usr/bin/kded6
-
 exec --no-startup-id joystickwake
 
 # Jalankan semua aplikasi autostart
 exec --no-startup-id dex --autostart --environment i3
-
-exec --no-startup-id m3wal $(readlink -f ~/.config/m3-colors/current_wallpaper)
 
 # Autostart
 exec_always --no-startup-id ~/.config/i3/autostart.sh

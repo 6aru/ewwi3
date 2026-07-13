@@ -1,19 +1,53 @@
+/* ============================================================
+ * Rofi Theme - E-Ink Dark
+ * Single palette for the entire desktop
+ * ============================================================ */
+
 * {
-    background:     #161616;
-    background-alt: #1E1E1E;
+    /* ---------- Base ---------- */
 
-    foreground:     #ECE8DF;
-    foreground-alt: #B9B5AD;
+    background:                 #181818;
+    background-alt:             #242424;
 
-    selected:       #D8D2C8;
-    active:         #A8C090;
-    urgent:         #C97A7A;
+    foreground:                 #ECE8DF;
+    foreground-alt:             #BDB7AC;
 
-    border:         #4D4D4D;
+    border:                     #4D4D4D;
 
-    separatorcolor: #4D4D4D;
+    accent:                     #D6D1C8;
 
-    highlight:      #ECE8DF;
+    /* ---------- States ---------- */
 
-    transparent:    #00000000;
+    active-background:          #242424;
+    active-foreground:          #ECE8DF;
+
+    selected-normal-background: #D6D1C8;
+    selected-normal-foreground: #181818;
+
+    selected-active-background: #D6D1C8;
+    selected-active-foreground: #181818;
+
+    urgent-background:          #B76B6B;
+    urgent-foreground:          #ECE8DF;
+
+    selected-urgent-background: #D88A8A;
+    selected-urgent-foreground: #181818;
+
+    alternate-normal-background:#202020;
+    alternate-normal-foreground:#ECE8DF;
+
+    alternate-active-background:#2C2C2C;
+    alternate-active-foreground:#ECE8DF;
+
+    separatorcolor:             #4D4D4D;
+
+    border-color:               @border;
+
+    handle-color:               @accent;
+
+    highlight:                  bold;
+
+    background-color:           transparent;
+
+    text-color:                 @foreground;
 }

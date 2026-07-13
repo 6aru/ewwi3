@@ -86,14 +86,12 @@ bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 bindsym XF86AudioStop exec --no-startup-id playerctl stop
 
-bindsym XF86MonBrightnessUp exec --no-startup-id ~/.config/i3/brightness.sh up && ~/.config/eww/scripts/brightness-popup.sh
-bindsym XF86MonBrightnessDown exec --no-startup-id ~/.config/i3/brightness.sh down && ~/.config/eww/scripts/brightness-popup.sh
+bindsym XF86MonBrightnessUp exec --no-startup-id ~/.config/i3//scripts/brightness.sh up && ~/.config/i3/eww/scripts/brightness-popup.sh
+bindsym XF86MonBrightnessDown exec --no-startup-id ~/.config/i3/scripts/brightness.sh down && ~/.config/i3/eww/scripts/brightness-popup.sh
 
 # is used in the bar {} block below.
-font terminess:monospace 9
-
-# is used in the bar {} block below.
-font terminess:monospace 9
+#font terminess:monospace 9
+font pango:JetBrainsMono Nerd Font 10
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).

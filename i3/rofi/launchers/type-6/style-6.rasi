@@ -12,7 +12,7 @@ configuration {
 }
 
 /*****----- Global Properties -----*****/
-@import "@import "~/.config/i3/rofi/rofi.rasi""
+@import "~/.config/i3/rofi/rofi.rasi"
 
 /*****----- Main Window -----*****/
 window {

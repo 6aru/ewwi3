@@ -37,18 +37,26 @@ for_window [class="Audacious"] floating enable, resize set 550 410, move positio
 for_window [class="Virt-manager" title="on QEMU/KVM"] resize set 1000
 set $mod Mod4
 
-set_from_resource $fg i3wm.m3onSurfaceVariant #f0f0f0
-set_from_resource $bg i3wm.m3outlineVariant #f0f0f0
-set_from_resource $ac i3wm.m3primary          #89b4fa
+# -------------------------
+# E-Ink Dark Theme
+# -------------------------
 
-# class                 border  backgr. text indicator child_border
-client.focused          $ac     $ac     $fg  $ac       $ac
-client.focused_inactive $bg     $bg     $fg  $bg       $bg
-client.unfocused        $bg     $bg     $fg  $bg       $bg
-client.urgent           $bg     $bg     $fg  $bg       $bg
-client.placeholder      $bg     $bg     $fg  $bg       $bg
+set $bg        #181818
+set $bg-alt    #242424
+set $fg        #ECE8DF
+set $fg-alt    #BDB7AC
+set $border    #4D4D4D
+set $accent    #D6D1C8
+set $urgent    #B76B6B
 
-client.background       $bg
+#                border      background  text       indicator   child_border
+client.focused          $accent   $bg        $fg       $accent     $accent
+client.focused_inactive $border   $bg-alt    $fg-alt   $border     $border
+client.unfocused        $border   $bg-alt    $fg-alt   $border     $border
+client.urgent           $urgent   $urgent    $fg       $urgent     $urgent
+client.placeholder      $border   $bg-alt    $fg-alt   $border     $border
+
+client.background $bg
 
 gaps inner 10
 gaps outer 0 

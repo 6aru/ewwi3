@@ -2,26 +2,26 @@
 # Autostart script for i3
 
 # 1. System Settings 
-setxkbmap -layout "us,ru" -option "grp:win_space_toggle" &
+setxkbmap us &
 
 # 2. Notification Daemon (harus duluan sebelum yang lain)
 pgrep -x dunst > /dev/null || dunst &
 sleep 0.3
 
+# Authentication Agent
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
 # 3. Wallpaper
-~/.fehbg &
+feh --no-fehbg --bg-fill ~/.config/wallpaper/eink.jpg &
 
 # 4. Compositor 
-killall -q picom compton xcompmgr
-while pgrep -x picom >/dev/null || pgrep -x compton >/dev/null || pgrep -x xcompmgr >/dev/null; do
+killall -q picom
+
+while pgrep -x picom >/dev/null; do
     sleep 0.1
 done
 
-if command -v picom &> /dev/null; then
-    picom &
-elif command -v compton &> /dev/null; then
-    compton &
-fi
+picom --experimental-backends &
 
 # 6. Settings Daemon
 pgrep -x xsettingsd > /dev/null || xsettingsd &

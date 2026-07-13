@@ -64,14 +64,14 @@ gaps top 37
 gaps bottom 0
 
 # PROTIP: You can also dynamically set dmenu's colors this way:
-bindsym $mod+d exec ~/.config/rofi/launchers/type-6/launcher.sh
+bindsym $mod+d exec ~/.config/i3/rofi/launchers/type-6/launcher.sh
 
 # Show Keybindings Help
 bindsym $mod+Shift+h exec ~/.config/i3/scripts/i3-help.sh
 
 # Workspace cycling with looping
-bindsym Ctrl+Mod4+Right exec --no-startup-id ~/.config/Scripts/ws_cycle.py next
-bindsym Ctrl+Mod4+Left exec --no-startup-id ~/.config/Scripts/ws_cycle.py prev
+bindsym Ctrl+Mod4+Right exec --no-startup-id ~/.config/i3/scripts/ws_cycle.py next
+bindsym Ctrl+Mod4+Left exec --no-startup-id ~/.config/i3/scripts/ws_cycle.py prev
 
 # Locker
 bindsym $mod+l exec --no-startup-id lock

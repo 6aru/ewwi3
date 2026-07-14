@@ -1,2 +1,2 @@
 #!/bin/bash
-cat ~/.config/eww/my-notes.txt
+cat ~/.config/i3/eww/my-notes.txt

@@ -29,7 +29,7 @@
 (defpoll WEATHER_ICON :interval "1800s" "~/.config/i3/eww/scripts/weather-wrapper.sh icon")  
 (defpoll WEATHER_DESC :interval "1800s" "~/.config/i3/eww/scripts/weather-wrapper.sh desc")
 (defpoll WEATHER_CITY :interval "86400s" "~/.config/i3/eww/scripts/weather-wrapper.sh city")
-(defpoll WEATHER_TEMP :interval "86400s" "~/.config/i3eww/scripts/weather_wrapper_forecast.sh day0 max")
+(defpoll WEATHER_TEMP :interval "86400s" "~/.config/i3/eww/scripts/weather_wrapper_forecast.sh day0 max")
 (defpoll WEATHER_LAT :interval "86400s" "~/.config/i3/eww/scripts/weather-wrapper.sh lat")
 (defpoll WEATHER_LONG :interval "86400s" "~/.config/i3/eww/scripts/weather-wrapper.sh long")
 (defpoll weather_forecast_data :interval "1h"

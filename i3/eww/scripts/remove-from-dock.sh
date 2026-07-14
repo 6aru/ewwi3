@@ -1,6 +1,6 @@
 #!/bin/bash
 ID="$1"
-APPS_JSON="$HOME/.config/eww/apps.json"
+APPS_JSON="$HOME/.config/i3/eww/apps.json"
 
 TMP=$(mktemp)
 jq --arg id "$ID" '[.[] | select(.name != $id)]' "$APPS_JSON" > "$TMP" && mv "$TMP" "$APPS_JSON"

@@ -14,7 +14,7 @@
              :value {system_status.bright_pct}
              :min 0
              :max 100
-             :onchange "brightnessctl set {}% && ~/.config/eww/scripts/brightness-popup.sh")
+             :onchange "brightnessctl set {}% && ~/.config/i3/eww/scripts/brightness-popup.sh")
       (label :class "brightness-percent-popup" 
              :text "${system_status.bright_pct}%"))))
 

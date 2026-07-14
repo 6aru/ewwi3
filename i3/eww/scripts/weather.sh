@@ -57,7 +57,7 @@ KNOTS="no"
 DECIMALS=0
 
 # Min. wind force required to display wind info
-MIN_WIND=11
+MIN_WIND=5
 
 # Display the numeric wind force or not. yes/no
 DISPLAY_FORCE="yes"
@@ -68,10 +68,10 @@ DISPLAY_WIND_UNIT="yes"
 # Thermometer settings ________________________________________________________
 
 # When the thermometer icon turns red
-HOT_TEMP=25
+HOT_TEMP=35
 
 # When the thermometer icon turns blue
-COLD_TEMP=0
+COLD_TEMP=10
 
 # Other settings ______________________________________________________________
 

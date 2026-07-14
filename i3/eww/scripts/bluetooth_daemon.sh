@@ -13,7 +13,7 @@ stop_discovery() {
 }
 
 update_list() {
-    RESULT=$(~/.config/eww/scripts/scan_bluetooth.sh)
+    RESULT=$(~/.config/i3/eww/scripts/scan_bluetooth.sh)
     eww update bluetooth_devices_listen="$RESULT"
 }
 

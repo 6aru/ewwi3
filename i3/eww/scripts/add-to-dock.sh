@@ -1,6 +1,6 @@
 #!/bin/bash
 NAME="$1"
-APPS_JSON="$HOME/.config/eww/apps.json"
+APPS_JSON="$HOME/.config/i3/eww/apps.json"
 DOTFILES="$HOME/.config/i3/config-dotfiles"
 
 MAX=$(grep "^MAX_DOCK_APPS=" "$DOTFILES" | cut -d'=' -f2)

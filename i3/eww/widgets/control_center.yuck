@@ -90,17 +90,17 @@
 
       (toggle_widget :icon { system_status.wifi_powered ? " " : "󰤮 "}
                      :label "Wifi"
-                     :onclick "~/.config/eww/scripts/toggle-panel.sh wifi_window & disown"
+                     :onclick "~/.config/i3/eww/scripts/toggle-panel.sh wifi_window & disown"
                      :active_class {system_status.wifi_powered ? "wifi-active" : ""})
 
       (toggle_widget :icon { system_status.bt_powered ? "󰂯" : "󰂲"}
                      :label "Bluetooth"
-                     :onclick "~/.config/eww/scripts/toggle-panel.sh bluetooth_window & disown"
+                     :onclick "~/.config/i3/eww/scripts/toggle-panel.sh bluetooth_window & disown"
                      :active_class {system_status.bt_powered ? "bt-active" : ""})
 
       (toggle_widget :icon "󰓃"
                      :label "Audio"
-                     :onclick "~/.config/eww/scripts/toggle-panel.sh audio_window & disown"
+                     :onclick "~/.config/i3/eww/scripts/toggle-panel.sh audio_window & disown"
                      :active_class "")
     )
 
@@ -113,7 +113,7 @@
 
       (toggle_widget_2 :icon ""
                        :label "Night Mode"
-                       :onclick "~/.config/eww/scripts/toggle_night_mode.sh"
+                       :onclick "~/.config/i3/eww/scripts/toggle_night_mode.sh"
                        :active_class {night_mode_status == "on" ? "night-active" : ""})
 
       (toggle_widget_2 :icon ""
@@ -164,7 +164,7 @@
 
       (slider_row :icon_left "󰃞 "
                   :value {system_status.bright_pct}
-                  :onchange "~/.config/i3/brightness.sh set {}")
+                  :onchange "~/.config/i3/scripts/brightness.sh set {}")
     )
 
     (box :class "sliders-container"

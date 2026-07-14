@@ -74,7 +74,7 @@ bindsym Ctrl+Mod4+Right exec --no-startup-id ~/.config/i3/scripts/ws_cycle.py ne
 bindsym Ctrl+Mod4+Left exec --no-startup-id ~/.config/i3/scripts/ws_cycle.py prev
 
 # Locker
-bindsym $mod+l exec --no-startup-id lock
+bindsym $mod+l exec --no-startup-id ~/.config/i3/scripts/lock.sh
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pamixer -i 1 --set-limit 100 && ~/.config/eww/scripts/volume-popup.sh
@@ -251,7 +251,7 @@ bindsym $mod+m mode "voice"; exec --no-startup-id ~/.config/i3/eww/scripts/bridg
 exec --no-startup-id xset s 600 600
 
 # Auto lock dengan xss-lock
-exec --no-startup-id xss-lock -- lock
+exec --no-startup-id xss-lock -- ~/.config/i3/scripts/lock.sh
 
 exec --no-startup-id joystickwake
 

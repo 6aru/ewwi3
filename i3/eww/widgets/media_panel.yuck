@@ -3,7 +3,7 @@
 ;;-----------------------------------------------------
 (deflisten media_info
   :initial '{"player": "", "status": "Stopped", "title": "No Media", "artist": "", "cover": "", "position": 0, "length": 0, "players": []}'
-  "python3 ~/.config/eww/scripts/media-monitor.py")
+  "python3 ~/.config/i3/eww/scripts/media-monitor.py")
 
 (defpoll media_position
   :interval "1s"

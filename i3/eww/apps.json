@@ -1,29 +1,7 @@
 [
-  {
-    "name": "steam"
-  },
-  {
-    "name": "com.github.wwmm.easyeffects"
-  },
-  {
-    "name": "PCSX2"
-  },
-  {
-    "name": "discord"
-  },
-  {
-    "name": "org.mozilla.Thunderbird"
-  },
-  {
-    "name": "org.telegram.desktop"
-  },
-  {
-    "name": "koodo-reader"
-  },
-  {
-    "name": "onlyoffice-desktopeditors"
-  },
-  {
-    "name": "Zoom"
-  }
+  { "name": "firefox-esr" },
+  { "name": "brave-browser" },
+  { "name": "thunar" },
+  { "name": "localsend" },
+  { "name": "xfce4-terminal" }
 ]

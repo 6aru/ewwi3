@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-WALLPAPER="$HOME/.config/wallpapers/eink.jpg"
+WALLPAPER="$HOME/.config/wallpaper/eink.jpg"
 LOCK_IMG="/tmp/lockscreen.png"
 
 magick "$WALLPAPER" \

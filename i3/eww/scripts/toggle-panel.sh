@@ -19,7 +19,7 @@ fi
 if [ "$PANEL" = "bluetooth_window" ]; then
     pkill -f bluetooth_daemon.sh 2>/dev/null
     if ! eww active-windows | grep -q bluetooth_window; then
-        ~/.config/eww/scripts/bluetooth_daemon.sh &
+        ~/.config/i3/eww/scripts/bluetooth_daemon.sh &
     fi
 fi
 

@@ -1,5 +1,5 @@
 /* ~/.config/rofi/keybinds.rasi */
-@import "~/.cache/m3-colors/rofi.rasi"
+@import "~/.config/i3/rofi/rofi.rasi"
 
 * {
     font: "JetBrains Mono Nerd Font 10";

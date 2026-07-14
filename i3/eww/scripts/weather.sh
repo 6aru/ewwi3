@@ -1,18 +1,13 @@
 #!/bin/bash
 
-# SETTINGS 
-
-source "$HOME/.cache/m3-colors/colors.sh"
-
 # API settings ________________________________________________________________
 
 # Open-Meteo 
-CITY_NAME='Jakarta'
-COUNTRY_CODE='ID'
+CITY_NAME="Bengaluru"
+COUNTRY_CODE="IN"
 
-# FILL WITH LATITUDE AND LONGITUDE
-LATITUDE="-6.17511"  # City latitude
-LONGITUDE="106.86504"  # City longitude
+LATITUDE="12.9716"
+LONGITUDE="77.5946"
 
 # Desired output language 
 LANG="en"
@@ -21,23 +16,23 @@ LANG="en"
 UNITS="metric"
 
 # Color Settings ______________________________________________________________
+# E-Ink palette
+COLOR_CLOUD="#ECE8DF"
+COLOR_THUNDER="#B76B6B"
+COLOR_LIGHT_RAIN="#D6D1C8"
+COLOR_HEAVY_RAIN="#D6D1C8"
+COLOR_SNOW="#ECE8DF"
+COLOR_FOG="#BDB7AC"
+COLOR_TORNADO="#B76B6B"
+COLOR_SUN="#ECE8DF"
+COLOR_MOON="#BDB7AC"
+COLOR_ERR="#B76B6B"
+COLOR_WIND="#D6D1C8"
+COLOR_COLD="#BDB7AC"
+COLOR_HOT="#B76B6B"
+COLOR_NORMAL_TEMP="#ECE8DF"
 
-COLOR_CLOUD="$color7"           
-COLOR_THUNDER="$color7"         
-COLOR_LIGHT_RAIN="$color7"     
-COLOR_HEAVY_RAIN="$color7"    
-COLOR_SNOW="$color7"            
-COLOR_FOG="$color7"            
-COLOR_TORNADO="$color7"        
-COLOR_SUN="$color7"            
-COLOR_MOON="$color7"            
-COLOR_ERR="$color7"             
-COLOR_WIND="$color7"           
-COLOR_COLD="$color7"            
-COLOR_HOT="$color7"             
-COLOR_NORMAL_TEMP="$color7"     
-
-COLOR_TEXT=""
+COLOR_TEXT="#ECE8DF"
 
 # Polybar settings ____________________________________________________________
 
@@ -56,7 +51,7 @@ DISPLAY_WIND="yes"
 BEAUFORTICON="yes"
 
 # Display in knots. yes/no
-KNOTS="yes"
+KNOTS="no"
 
 # How many decimals after the floating point
 DECIMALS=0

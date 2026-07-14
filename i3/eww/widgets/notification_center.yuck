@@ -3,10 +3,10 @@
 ;;-----------------------------------------------------
 
 (defpoll notification_recent :interval "2s" :initial "[]"
-  `~/.config/eww/scripts/get_notifications.sh recent`)
+  `~/.config/i3/eww/scripts/get_notifications.sh recent`)
 
 (defpoll notification_earlier :interval "2s" :initial "[]"
-  `~/.config/eww/scripts/get_notifications.sh earlier`)
+  `~/.config/i3/eww/scripts/get_notifications.sh earlier`)
 
 (defvar active_tab_notification "recent")
 
@@ -44,7 +44,7 @@
       (button :class "notification-close-btn"
         :valign "start"
         :vexpand false
-        :onclick "dunstctl history-rm ${id} && eww update notification_history=$(~/.config/eww/scripts/get_notifications.sh)"
+        :onclick "dunstctl history-rm ${id} && eww update notification_history=$(~/.config/i3/eww/scripts/get_notifications.sh)"
         
         (label :yalign 0.5 :class "notification-close-icon" :text "✕"))
     )

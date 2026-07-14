@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # SETTINGS
-IMAGE_URL="file:///home/$USER/.config/eww/assets/profile.jpg"
+IMAGE_URL="file:///home/$USER/.config/i3/eww/assets/profile.jpg"
 
 # Fungsi Helper untuk WM (biar rapi)
 get_wm() {

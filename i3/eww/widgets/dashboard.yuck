@@ -33,17 +33,17 @@
 (defpoll WEATHER_LAT :interval "86400s" "~/.config/i3/eww/scripts/weather-wrapper.sh lat")
 (defpoll WEATHER_LONG :interval "86400s" "~/.config/i3/eww/scripts/weather-wrapper.sh long")
 (defpoll weather_forecast_data :interval "1h"
-  "~/.config/eww/scripts/weather_wrapper_forecast.sh json")
+  "~/.config/i3/eww/scripts/weather_wrapper_forecast.sh json")
 
 (defpoll my_notes 
   :interval "30s"
   :run-while performance_monitor_visible
-  "~/.config/eww/scripts/read_note.sh")
+  "~/.config/i3/eww/scripts/read_note.sh")
 
 ;; Variables info laptop
 (defpoll laptop_info :interval "86400s" 
   :initial '{"brand":"Loading...","model":"Loading...","cpu":"...","gpu":"...","ram":"...","disk":"...","logo_path":"..."}'
-  "~/.config/eww/scripts/get-laptop-info.sh")
+  "~/.config/i3/eww/scripts/get-laptop-info.sh")
 
 ;;---------------- WIDGET ---------------------
 

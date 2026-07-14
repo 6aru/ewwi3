@@ -1,6 +1,6 @@
 #!/bin/bash
 # Wrapper script untuk weather agar output JSON friendly untuk Eww
-WEATHER_SCRIPT="$HOME/.config/eww/scripts/weather.sh"
+WEATHER_SCRIPT="$HOME/.config/i3/eww/scripts/weather.sh"
 # Cache file untuk menyimpan data terakhir yang berhasil
 CACHE_DIR="$HOME/.cache/eww-weather"
 CACHE_ICON="$CACHE_DIR/icon"

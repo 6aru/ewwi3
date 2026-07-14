@@ -3,7 +3,7 @@
 # Lokasi file config i3
 CONFIG="$HOME/.config/i3/config"
 # Lokasi file tema rofi yang baru dibuat
-THEME="$HOME/.config/rofi/keybinds.rasi"
+THEME="$HOME/.config/i3/rofi/keybinds.rasi"
 
 # Mengambil keybinding
 grep "^bindsym" "$CONFIG" | \

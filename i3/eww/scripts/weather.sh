@@ -523,7 +523,7 @@ if [ $ERROR -eq 0 ]; then
 else
   # Error handling JSON
   if [ "$MODE" = "json" ]; then
-    echo "{\"icon\": \"\", \"color\": \"#ff0000\", \"text\": \"Offline\"}"
+    echo "{\"icon\": \"\", \"color\": \"#B76B6B\", \"text\": \"Offline\"}"
   else
     echo " "
   fi

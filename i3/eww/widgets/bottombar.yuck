@@ -6,7 +6,7 @@
   (eventbox :class "dock-item"
             :tooltip name
             :onclick {"bash -c '" + exec + " &' &"}
-            :onrightclick {"~/.config/eww/scripts/dock-confirm-remove.sh " + id + " '" + name + "' &"}
+            :onrightclick {"~/.config/i3/eww/scripts/dock-confirm-remove.sh " + id + " '" + name + "' &"}
     (box :class "dock-btn"
       (image :path icon
              :image-width 40

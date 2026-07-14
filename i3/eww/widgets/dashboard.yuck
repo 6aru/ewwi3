@@ -10,28 +10,28 @@
 
 (deflisten datetime
   :initial `date '+{"time":"%H:%M","hour":"%H","minute":"%M","month":"%B","month_short":"%b","year":"%Y","day":"%d","day_name":"%A","day_short":"%a"}'`
-  "bash ~/.config/eww/scripts/datetime-listen.sh")
+  "bash ~/.config/i3/eww/scripts/datetime-listen.sh")
 
 ;; Profile polls
 (defpoll profile 
   :interval "60s"
   :run-while performance_monitor_visible
   :initial '{"username": "loading...", "wm": "loading...", "uptime": "...", "image": ""}'
-  "~/.config/eww/scripts/profile.sh json")
+  "~/.config/i3/eww/scripts/profile.sh json")
 
 (defpoll system
   :interval "2s"
   :initial '{"cpu_usage": 0, "cpu_temp": 0, "mem_perc": 0, "mem_used": "0G", "mem_total": "0G", "disk_perc": 0, "disk_used": "0G", "disk_total": "0G"}'
   :run-while performance_monitor_visible
-  "python3 ~/.config/eww/scripts/sys_info.py")
+  "python3 ~/.config/i3/eww/scripts/sys_info.py")
 
 ;; Weather polls
-(defpoll WEATHER_ICON :interval "1800s" "~/.config/eww/scripts/weather-wrapper.sh icon")  
-(defpoll WEATHER_DESC :interval "1800s" "~/.config/eww/scripts/weather-wrapper.sh desc")
-(defpoll WEATHER_CITY :interval "86400s" "~/.config/eww/scripts/weather-wrapper.sh city")
-(defpoll WEATHER_TEMP :interval "86400s" "~/.config/eww/scripts/weather_wrapper_forecast.sh day0 max")
-(defpoll WEATHER_LAT :interval "86400s" "~/.config/eww/scripts/weather-wrapper.sh lat")
-(defpoll WEATHER_LONG :interval "86400s" "~/.config/eww/scripts/weather-wrapper.sh long")
+(defpoll WEATHER_ICON :interval "1800s" "~/.config/i3/eww/scripts/weather-wrapper.sh icon")  
+(defpoll WEATHER_DESC :interval "1800s" "~/.config/i3/eww/scripts/weather-wrapper.sh desc")
+(defpoll WEATHER_CITY :interval "86400s" "~/.config/i3/eww/scripts/weather-wrapper.sh city")
+(defpoll WEATHER_TEMP :interval "86400s" "~/.config/i3eww/scripts/weather_wrapper_forecast.sh day0 max")
+(defpoll WEATHER_LAT :interval "86400s" "~/.config/i3/eww/scripts/weather-wrapper.sh lat")
+(defpoll WEATHER_LONG :interval "86400s" "~/.config/i3/eww/scripts/weather-wrapper.sh long")
 (defpoll weather_forecast_data :interval "1h"
   "~/.config/eww/scripts/weather_wrapper_forecast.sh json")
 
@@ -384,7 +384,7 @@
        :vexpand true
     (button :class "edit-btn"
             :vexpand true
-            :onclick "xdg-open ~/.config/eww/my-notes.txt &"
+            :onclick "xdg-open ~/.config/i3/eww/my-notes.txt &"
       (box :orientation "v"
            :space-evenly false
            :valign "center"

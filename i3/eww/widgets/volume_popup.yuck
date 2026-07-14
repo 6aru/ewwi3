@@ -14,7 +14,7 @@
              :value {system_status.vol_pct}
              :min 0
              :max 100
-             :onchange "pamixer --set-volume {} && ~/.config/eww/scripts/volume-popup.sh")
+             :onchange "pamixer --set-volume {} && ~/.config/i3/eww/scripts/volume-popup.sh")
       (label :class "volume-percent-popup" 
              :text "${system_status.vol_pct}%"))))
 

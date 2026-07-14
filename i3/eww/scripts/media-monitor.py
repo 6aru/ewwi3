@@ -19,7 +19,7 @@ from gi.repository import GLib
 
 # ─── Konfigurasi ──────────────────────────────────────────────────────────────
 
-DEFAULT_COVER = str(Path.home() / ".config/eww/assets/default-cover.jpg")
+DEFAULT_COVER = str(Path.home() / ".config/i3/eww/assets/default-cover.jpg")
 MPRIS_PREFIX = "org.mpris.MediaPlayer2."
 SOCKET_PATH = "/tmp/eww-media-monitor.sock"
 

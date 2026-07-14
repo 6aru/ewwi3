@@ -22,7 +22,7 @@
   :interval "60s"
   :run-while dotfiles-window-open
   :initial "[]"
-  "~/.config/eww/scripts/list-icon-themes.sh")
+  "~/.config/i3/eww/scripts/list-icon-themes.sh")
 
 ;; ------------------ WIDGET ------------------
 

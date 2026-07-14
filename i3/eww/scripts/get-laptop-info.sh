@@ -4,7 +4,7 @@
 
 CACHE_FILE="/tmp/eww_laptop_info_cache.json"
 FALLBACK_LOGO="${HOME}/.config/i3/eww/assets/brand.png"
-LOGO_CACHE_DIR="${HOME}/.cache/i3/eww/logos"
+LOGO_CACHE_DIR="${HOME}/.cache/eww/logos"
 
 # --- 1. CEK CACHE UTAMA (FAST PATH) ---
 if [ -s "$CACHE_FILE" ]; then

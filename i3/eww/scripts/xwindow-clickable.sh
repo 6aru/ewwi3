@@ -1,5 +1,5 @@
 #!/bin/bash
-# ~/.config/eww/scripts/xwindow-clickable.sh
+# ~/.config/i3/eww/scripts/xwindow-clickable.sh
 
 format_title() {
     local title="$1"

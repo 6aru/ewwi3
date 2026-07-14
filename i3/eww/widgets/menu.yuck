@@ -4,20 +4,20 @@
 
 (deflisten menu_data
   :initial '{"categories": []}'
-  "python3 ~/.config/eww/scripts/menu-gen.py")
+  "python3 ~/.config/i3/eww/scripts/menu-gen.py")
 
 (defpoll initial_apps
   :interval "999999s"
   :initial "[]"
-  "~/.config/eww/scripts/filter-apps.sh 'Internet'")
+  "~/.config/i3/eww/scripts/filter-apps.sh 'Internet'")
 
 (defpoll profile-pic :interval "999h"
-  `echo "$HOME/.config/eww/assets/profile.jpg"`)
+  `echo "$HOME/.config/i3/eww/assets/profile.jpg"`)
 
 (defwidget cat_tab [cat icon]
   (button
     :class "cat-tab ${menu_active_cat == cat ? 'active' : ''}"
-    :onclick "~/.config/eww/scripts/switch-category.sh '${cat}'"
+    :onclick "~/.config/i3/eww/scripts/switch-category.sh '${cat}'"
     (box :orientation "v" :space-evenly false :spacing 0 :halign "center"
       (label :class "cat-label" :valign "center" :text cat :limit-width 15))))
 
@@ -47,7 +47,7 @@
     (button
       :class "dock-pin-btn"
       :tooltip "Add to Dock"
-      :onclick "~/.config/eww/scripts/add-to-dock.sh ${app.id} &"
+      :onclick "~/.config/i3/eww/scripts/add-to-dock.sh ${app.id} &"
       (label :text ">"))))
 
 (defwidget app_list []
@@ -69,13 +69,13 @@
     (button :class "search-bar"
             :hexpand true
             :halign "fill"
-            :onclick "~/.config/rofi/launchers/type-6/launcher.sh & eww update start_menu_visible=false & eww close start_menu"
+            :onclick "~/.config/i3/rofi/launchers/type-6/launcher.sh & eww update start_menu_visible=false & eww close start_menu"
       (label :text "Search applications..." :xalign 0))
     (button :class "power-btn" :halign "end" 
             :onclick "eww open dotfiles-window & eww update dotfiles-window-open=true & eww open --toggle start_menu"
       (label :text "󰍜"))
     (button :class "power-btn" :halign "end" 
-            :onclick "~/.config/rofi/powermenu/type-5/powermenu.sh & eww update start_menu_visible=false & eww close start_menu"
+            :onclick "~/.config/i3/rofi/powermenu/type-5/powermenu.sh & eww update start_menu_visible=false & eww close start_menu"
       (label :text "󰐥"))))
 
 (defwidget start_menu []

@@ -1,27 +1,23 @@
 ;; Eww Bar Configuration
 
-(deflisten icon-theme
-  :initial "light"
-  `bash -c "cat ~/.config/eww/.icon-theme; inotifywait -e close_write ~/.config/eww/.icon-theme -m --format '' | while read; do cat ~/.config/eww/.icon-theme; done"`)
-
 (deflisten ws_list
   :initial "[1,2,3]"
-  "bash ~/.config/eww/scripts/get-dotfiles-config.sh")
+  "bash ~/.config/i3/eww/scripts/get-dotfiles-config.sh")
 
 (deflisten workspaces :initial "[]" 
-  "bash ~/.config/eww/scripts/get-workspaces.sh")
+  "bash ~/.config/i3/eww/scripts/get-workspaces.sh")
 
 (deflisten current-mode :initial "default"
-  "~/.config/eww/scripts/i3-mode.sh")
+  "~/.config/i3/eww/scripts/i3-mode.sh")
 
 ;; Definisi variable untuk window title
 (deflisten active_window
-  "~/.config/eww/scripts/xwindow-clickable.sh")
+  "~/.config/i3/eww/scripts/xwindow-clickable.sh")
 
 ;; Definisi variable untuk system variable
 (deflisten system_status
   :initial '{"wifi_icon":"","wifi_desc":"","wifi_connected":false,"bat_icon":"","bat_desc":"","bat_capacity":0,"bat_charging":false,"bright_icon":"","bright_desc":"","bright_pct":0,"vol_icon":"","vol_desc":"","vol_pct":0,"vol_muted":false}'
-  "python3 ~/.config/eww/scripts/system-monitor.py")
+  "python3 ~/.config/i3/eww/scripts/system-monitor.py")
 
 ;; --------- WIDGET --------------------------------------------------
 
@@ -64,7 +60,7 @@
 
       (eventbox :onclick "eww open --toggle start_menu"
                 :cursor "pointer"
-        (image :path "${EWW_CONFIG_DIR}/assets/CachyOS-${icon-theme}.svg"
+        (image :path "${EWW_CONFIG_DIR}/assets/debian.svg"
                :image-width 20
                :image-height 20))
         
@@ -229,7 +225,7 @@
                :text {datetime.time})
       )
 
-      (eventbox :onclick "~/.config/eww/scripts/toggle-control-center.sh & disown"
+      (eventbox :onclick "~/.config/i3/eww/scripts/toggle-control-center.sh & disown"
                 :timeout "2s"     
                 :cursor "pointer"
         (box :class "panel-bar"

@@ -63,7 +63,7 @@ Recommended locations:
 ```bash
 cd ~/Downloads
 
-git clone https://github.com/<yourusername>/ewwi3.git
+git clone https://github.com/6aru/ewwi3.git
 
 cd ewwi3
 ```
@@ -73,7 +73,7 @@ or
 ```bash
 cd ~/Projects
 
-git clone https://github.com/<yourusername>/ewwi3.git
+git clone https://github.com/6aru/ewwi3.git
 
 cd ewwi3
 ```
@@ -164,8 +164,7 @@ Install manually.
 - Ghostty
 - LocalSend
 - Discord
-- OnlyOffice
-- Koodo Reader
+- rmpc
 
 ---
 
@@ -348,10 +347,10 @@ Final structure
 
 ```
 ~/.config/i3
-~/.config/eww
-~/.config/rofi
-~/.config/dunst
-~/.config/picom
+~/.config/i3/eww
+~/.config/i3/rofi
+~/.config/i3/dunst
+~/.config/i3/picom
 ```
 
 ---
@@ -361,7 +360,7 @@ Final structure
 Run
 
 ```bash
-find ~/.config -type f \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
+find ~/.config/i3 -type f \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
 ```
 
 ---
@@ -499,11 +498,11 @@ Applications
 │   ├── dunst/
 │   ├── picom/
 │   ├── scripts/
-│   ├── wallpaper/
-│   └── ...
+│   ├── xsettingsd/
+│   ├── config
+│   └── config-dotfiles
 ├── wallpaper/
 │   └── eink.jpg
-├── LICENSE
 ├── README.md
 └── GUIDE.md
 ```

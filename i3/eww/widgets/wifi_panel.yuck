@@ -10,7 +10,7 @@
 
 (defwidget wifi_network_item [ssid signal secured connected sig_icon sec_icon]
   (button :class "wifi-network-item ${connected == 'true' ? 'wifi-connected' : ''}"
-          :onclick "~/.config/eww/scripts/connect_wifi.sh '${ssid}' &"
+          :onclick "~/.config/i3/eww/scripts/connect_wifi.sh '${ssid}' &"
     (box :orientation "h"
          :spacing 10
          :space-evenly false
@@ -46,7 +46,7 @@
            :class "wifi-panel-container"
 
         (button :class "wifi-power-toggle"
-                :onclick "~/.config/eww/scripts/toggle_wifi.sh"
+                :onclick "~/.config/i3/eww/scripts/toggle_wifi.sh"
           (stack :selected {system_status.wifi_powered ? 0 : 1}
                  :transition "slideleft"
                  :same-size true

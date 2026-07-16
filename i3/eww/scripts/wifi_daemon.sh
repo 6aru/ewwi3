@@ -12,7 +12,7 @@ request_scan() {
 }
 
 update_list() {
-    RESULT=$(~/.config/eww/scripts/scan_wifi.sh)
+    RESULT=$(~/.config/i3/eww/scripts/scan_wifi.sh)
     eww update wifi_networks="$RESULT"
 }
 

@@ -38,5 +38,3 @@ python3 ~/.config/eww/scripts/fullscreen-monitor.py &
 
 pkill -f dock-autohide
 python3 ~/.config/eww/scripts/dock-autohide.py &
-
-autotiling &

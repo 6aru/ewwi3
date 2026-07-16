@@ -23,7 +23,7 @@ CACHE_DIR = Path(os.environ.get("XDG_CACHE_HOME", Path.home() / ".cache"))
 CONFIG_DIR = Path(os.environ.get("XDG_CONFIG_HOME", Path.home() / ".config"))
 
 OUTPUT_FILE = CACHE_DIR / "eww-dock.json"
-APPS_JSON = CONFIG_DIR / "eww/apps.json"  # <── sesuaikan path-mu
+APPS_JSON = CONFIG_DIR / "i3/eww/apps.json"  # <── sesuaikan path-mu
 DOTFILES_CONFIG = CONFIG_DIR / "i3/config-dotfiles"
 
 FALLBACK_ICON = (

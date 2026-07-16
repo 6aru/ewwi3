@@ -17,7 +17,7 @@
   :interval "60s"
   :run-while performance_monitor_visible
   :initial '{"username": "loading...", "wm": "loading...", "uptime": "...", "image": ""}'
-  "~/.config/i3/eww/scripts/profile.sh json")
+  "~/.config/eww/scripts/profile.sh json")
 
 (defpoll system
   :interval "2s"

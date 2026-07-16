@@ -1,0 +1,31 @@
+(defwidget brightness-popup []
+  (box :class "brightness-popup" 
+       :orientation "v"          
+       :space-evenly false
+    (box :class "brightness-header-popup"
+      (label :class "icon-brightness-popup" :text "☀"))         
+    (box :class "brightness-slider-box-popup"
+         :orientation "v"        
+         :vexpand true           
+         :space-evenly false
+      (scale :class "brightness-slider-popup"
+             :orientation "v"    
+             :flipped true       
+             :value {system_status.bright_pct}
+             :min 0
+             :max 100
+             :onchange "brightnessctl set {}% && ~/.config/eww/scripts/brightness-popup.sh")
+      (label :class "brightness-percent-popup" 
+             :text "${system_status.bright_pct}%"))))
+
+(defwindow brightness-popup
+  :monitor 0
+  :geometry (geometry :x "-16px"
+                      :y "52px"
+                      :width "60px"    
+                      :height "200px"  
+                      :anchor "top right")
+  :stacking "overlay"
+  :windowtype "normal"
+  :wm-ignore true
+  (brightness-popup))

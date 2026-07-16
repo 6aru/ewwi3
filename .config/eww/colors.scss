@@ -1,0 +1,187 @@
+// =====================================================================
+// E-Ink Dark Theme
+// Compatible with simple-autoricing-i3wm-dotfiles
+// =====================================================================
+
+// Wallpaper
+$wallpaper: "~/.config/wallpaper/eink.jpg";
+$source-color: #d6d1c8;
+
+// ---------------------------------------------------------------------
+// Compatibility
+// ---------------------------------------------------------------------
+
+$background: #181818;
+$foreground: #ece8df;
+$cursor: #ece8df;
+
+// =====================================================================
+// PRIMARY
+// =====================================================================
+
+$primary: #d6d1c8;
+$on-primary: #181818;
+
+$primary-container: #303030;
+$on-primary-container: #ece8df;
+
+$primary-fixed: #ece8df;
+$primary-fixed-dim: #d6d1c8;
+
+$on-primary-fixed: #181818;
+$on-primary-fixed-variant: #bdb7ac;
+
+// =====================================================================
+// SECONDARY
+// =====================================================================
+
+$secondary: #bdb7ac;
+$on-secondary: #181818;
+
+$secondary-container: #2a2a2a;
+$on-secondary-container: #ece8df;
+
+$secondary-fixed: #ece8df;
+$secondary-fixed-dim: #bdb7ac;
+
+$on-secondary-fixed: #181818;
+$on-secondary-fixed-variant: #9e978d;
+
+// =====================================================================
+// TERTIARY
+// =====================================================================
+
+$tertiary: #a5a5a5;
+$on-tertiary: #181818;
+
+$tertiary-container: #303030;
+$on-tertiary-container: #ece8df;
+
+$tertiary-fixed: #d6d1c8;
+$tertiary-fixed-dim: #a5a5a5;
+
+$on-tertiary-fixed: #181818;
+$on-tertiary-fixed-variant: #8b8b8b;
+
+// =====================================================================
+// ERROR
+// =====================================================================
+
+$error: #b76b6b;
+$on-error: #ffffff;
+
+$error-container: #4a2a2a;
+$on-error-container: #f7dede;
+
+// =====================================================================
+// SURFACE
+// =====================================================================
+
+$surface: #202020;
+$on-surface: #ece8df;
+
+$surface-variant: #303030;
+$on-surface-variant: #bdb7ac;
+
+$surface-dim: #181818;
+$surface-bright: #343434;
+
+$surface-container-lowest: #121212;
+$surface-container-low: #1a1a1a;
+$surface-container: #242424;
+$surface-container-high: #2d2d2d;
+$surface-container-highest: #383838;
+
+// =====================================================================
+// OUTLINE
+// =====================================================================
+
+$outline: #555555;
+$outline-variant: #404040;
+
+// =====================================================================
+// INVERSE
+// =====================================================================
+
+$inverse-surface: #ece8df;
+$inverse-on-surface: #202020;
+$inverse-primary: #181818;
+
+// =====================================================================
+// SHADOW
+// =====================================================================
+
+$shadow: rgba(0,0,0,.45);
+$scrim: rgba(0,0,0,.60);
+
+// =====================================================================
+// TERMINAL
+// =====================================================================
+
+// Normal
+$color0:  #181818;
+$color1:  #b76b6b;
+$color2:  #8fa37a;
+$color3:  #c5a96a;
+$color4:  #a5a5a5;
+$color5:  #d6d1c8;
+$color6:  #bdb7ac;
+$color7:  #ece8df;
+
+// Bright
+$color8:  #555555;
+$color9:  #cc8080;
+$color10: #a4b98d;
+$color11: #d8bc7c;
+$color12: #c8c8c8;
+$color13: #ece8df;
+$color14: #dad4c9;
+$color15: #ffffff;
+
+// =====================================================================
+// SCSS MAP
+// =====================================================================
+
+$m3-colors: (
+  "primary": $primary,
+  "on-primary": $on-primary,
+  "primary-container": $primary-container,
+  "on-primary-container": $on-primary-container,
+  "secondary": $secondary,
+  "on-secondary": $on-secondary,
+  "secondary-container": $secondary-container,
+  "on-secondary-container": $on-secondary-container,
+  "tertiary": $tertiary,
+  "on-tertiary": $on-tertiary,
+  "tertiary-container": $tertiary-container,
+  "on-tertiary-container": $on-tertiary-container,
+  "error": $error,
+  "on-error": $on-error,
+  "error-container": $error-container,
+  "on-error-container": $on-error-container,
+  "surface": $surface,
+  "on-surface": $on-surface,
+  "surface-variant": $surface-variant,
+  "on-surface-variant": $on-surface-variant,
+  "outline": $outline,
+  "outline-variant": $outline-variant
+);
+
+$terminal-colors: (
+  0: $color0,
+  1: $color1,
+  2: $color2,
+  3: $color3,
+  4: $color4,
+  5: $color5,
+  6: $color6,
+  7: $color7,
+  8: $color8,
+  9: $color9,
+  10: $color10,
+  11: $color11,
+  12: $color12,
+  13: $color13,
+  14: $color14,
+  15: $color15
+);

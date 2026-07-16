@@ -7,6 +7,6 @@ CHOICE=$(echo -e "Cancel\nRemove" | rofi \
   -p "" \
   -mesg "Remove \"$NAME\" from dock?" \
   -l 2 \
-  -theme ~/.config/i3/rofi/dock-confirm.rasi)
+  -theme ~/.config/rofi/dock-confirm.rasi)
 
 [ "$CHOICE" = "Remove" ] && ~/.config/eww/scripts/remove-from-dock.sh "$ID" &

@@ -77,9 +77,9 @@ bindsym Ctrl+Mod4+Left exec --no-startup-id ~/.config/i3/scripts/ws_cycle.py pre
 bindsym $mod+l exec --no-startup-id ~/.config/i3/scripts/lock.sh
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pamixer -i 1 --set-limit 100 && ~/.config/eww/scripts/volume-popup.sh
-bindsym XF86AudioLowerVolume exec --no-startup-id pamixer -d 1 && ~/.config/eww/scripts/volume-popup.sh
-bindsym XF86AudioMute exec --no-startup-id pamixer -t && ~/.config/eww/scripts/volume-popup.sh
+bindsym XF86AudioRaiseVolume exec --no-startup-id pamixer -i 1 --set-limit 100 && ~/.config/i3/eww/scripts/volume-popup.sh
+bindsym XF86AudioLowerVolume exec --no-startup-id pamixer -d 1 && ~/.config/i3/eww/scripts/volume-popup.sh
+bindsym XF86AudioMute exec --no-startup-id pamixer -t && ~/.config/i3/eww/scripts/volume-popup.sh
 bindsym XF86AudioPause exec --no-startup-id playerctl play-pause
 bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
 bindsym XF86AudioNext exec --no-startup-id playerctl next

@@ -260,3 +260,5 @@ exec --no-startup-id dex --autostart --environment i3
 
 # Autostart
 exec_always --no-startup-id ~/.config/i3/autostart.sh
+
+exec_always --no-startup-id ~/.local/bin/autotiling

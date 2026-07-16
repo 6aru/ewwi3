@@ -33,7 +33,7 @@
 (defpoll WEATHER_LAT :interval "86400s" "~/.config/eww/scripts/weather-wrapper.sh lat")
 (defpoll WEATHER_LONG :interval "86400s" "~/.config/eww/scripts/weather-wrapper.sh long")
 (defpoll weather_forecast_data :interval "1h"
-  "~/.config/i3/eww/scripts/weather_wrapper_forecast.sh json")
+  "~/.config/eww/scripts/weather_wrapper_forecast.sh json")
 
 (defpoll my_notes 
   :interval "30s"

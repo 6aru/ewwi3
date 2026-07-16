@@ -43,7 +43,7 @@
 ;; Variables info laptop
 (defpoll laptop_info :interval "86400s" 
   :initial '{"brand":"Loading...","model":"Loading...","cpu":"...","gpu":"...","ram":"...","disk":"...","logo_path":"..."}'
-  "~/.config/i3/eww/scripts/get-laptop-info.sh")
+  "~/.config/eww/scripts/get-laptop-info.sh")
 
 ;;---------------- WIDGET ---------------------
 

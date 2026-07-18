@@ -10,9 +10,9 @@ https://github.com/user-attachments/assets/45aa163c-6457-4dc7-8442-c5d6dfd3cc08
 ![Debian](https://img.shields.io/badge/Debian-13-A81D33?style=for-the-badge&logo=debian)
 ![WM](https://img.shields.io/badge/WM-i3-5294E2?style=for-the-badge)
 ![Widgets](https://img.shields.io/badge/Widgets-Eww-8A2BE2?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
-![Forks](https://img.shields.io/github/forks/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/6aru/ewwi3?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/6aru/ewwi3?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/6aru/ewwi3?style=for-the-badge)
 
 </div>
 </div>

@@ -22,6 +22,12 @@ smart_borders on
 smart_borders no_gaps
 
 # FLOATING APPLICATIONS
+# GTK File Chooser
+for_window [window_role="GtkFileChooserDialog"] \
+    floating enable, \
+    resize set 850 520, \
+    move position center
+
 for_window [instance="FL64.exe"] floating enable
 for_window [instance="explorer.exe"] floating enable
 for_window [class="Wine"] floating enable

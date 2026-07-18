@@ -61,7 +61,15 @@ It helps others discover the project and motivates future improvements.
 
 ---
 
+## ⭐ Support the Project
+
+If this repository helped you build your desktop, consider leaving a star.
+
+It lets me know people are finding it useful.
+
 <div align="center">
+
+---
 
 **Made with ❤️ using i3 • Debian 13 • Eww**
 

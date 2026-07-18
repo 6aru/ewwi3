@@ -7,12 +7,12 @@ A lightweight and modern **i3** desktop for **Debian 13** with an **E-Ink inspir
 https://github.com/user-attachments/assets/45aa163c-6457-4dc7-8442-c5d6dfd3cc08
 <div align="center">
 
-# 🌑 Clean, Minimal & Feature-Rich i3 + Eww Setup
-
-![Platform](https://img.shields.io/badge/Platform-Debian%2013-red?style=flat-square)
-![WM](https://img.shields.io/badge/WM-i3-blue?style=flat-square)
-![Widgets](https://img.shields.io/badge/Widgets-Eww-8A2BE2?style=flat-square)
-![License](https://img.shields.io/github/license/YOUR_USERNAME/YOUR_REPO?style=flat-square)
+![Debian](https://img.shields.io/badge/Debian-13-A81D33?style=for-the-badge&logo=debian)
+![WM](https://img.shields.io/badge/WM-i3-5294E2?style=for-the-badge)
+![Widgets](https://img.shields.io/badge/Widgets-Eww-8A2BE2?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
 
 </div>
 </div>

@@ -1,12 +1,7 @@
 #!/usr/bin/env bash
 
 WALLPAPER="$HOME/.config/wallpaper/eink.jpg"
-LOCK_IMG="/tmp/lockscreen.png"
-
-magick "$WALLPAPER" \
-    -brightness-contrast -35x0 \
-    -blur 0x8 \
-    "$LOCK_IMG"
+LOCK_IMG="$HOME/.config/wallpaper/lockscreen.png"
 
 i3lock \
     --image "$LOCK_IMG" \

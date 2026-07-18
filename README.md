@@ -46,13 +46,8 @@ It contains everything you need, including:
 
 This repository is a heavily modified and simplified version of the excellent work by **MDiaznf23**.
 
-Original project:
-
-https://github.com/MDiaznf23/simple-autoricing-i3wm-dotfiles
-
-GitHub:
-
-https://github.com/MDiaznf23
+- Original project: [MDiaznf23/simple-autoricing-i3wm-dotfiles](https://github.com/MDiaznf23/simple-autoricing-i3wm-dotfiles)
+- GitHub: [MDiaznf23](https://github.com/MDiaznf23)
 
 Thank you for creating and sharing the original project.
 

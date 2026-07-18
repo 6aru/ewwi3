@@ -347,10 +347,11 @@ Final structure
 
 ```
 ~/.config/i3
-~/.config/i3/eww
-~/.config/i3/rofi
-~/.config/i3/dunst
-~/.config/i3/picom
+~/.config/eww
+~/.config/rofi
+~/.config/dunst
+~/.config/picom
+~/.config/dunst
 ```
 
 ---
@@ -360,7 +361,7 @@ Final structure
 Run
 
 ```bash
-find ~/.config/i3 -type f \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
+find ~/.config/ -type f \( -name "*.sh" -o -name "*.py" \) -exec chmod +x {} \;
 ```
 
 ---
@@ -492,17 +493,15 @@ Applications
 ```
 .
 ├── fonts/
-├── i3/
+├── .config/
 │   ├── eww/
 │   ├── rofi/
 │   ├── dunst/
 │   ├── picom/
 │   ├── scripts/
 │   ├── xsettingsd/
-│   ├── config
-│   └── config-dotfiles
-├── wallpaper/
-│   └── eink.jpg
+│   ├── i3/
+│   └── wallpaper/
 ├── README.md
 └── GUIDE.md
 ```

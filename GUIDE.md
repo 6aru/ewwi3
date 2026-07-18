@@ -104,6 +104,7 @@ i3lock \
 xclip \
 scrot \
 playerctl \
+mpdris2 \
 brightnessctl \
 pamixer \
 pipewire \

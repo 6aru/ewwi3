@@ -9,7 +9,7 @@ pgrep -x dunst > /dev/null || dunst &
 sleep 0.3
 
 # Authentication Agent
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+pgrep -x lxpolkit >/dev/null || lxpolkit &
 
 # 3. Wallpaper
 feh --no-fehbg --bg-fill ~/.config/wallpaper/eink.jpg &
@@ -21,7 +21,7 @@ while pgrep -x picom >/dev/null; do
     sleep 0.1
 done
 
-picom --experimental-backends &
+picom &
 
 # 6. Settings Daemon
 pgrep -x xsettingsd > /dev/null || xsettingsd &

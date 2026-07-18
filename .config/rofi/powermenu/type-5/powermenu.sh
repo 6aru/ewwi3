@@ -19,20 +19,20 @@ uptime="`uptime -p | sed -e 's/up //g'`"
 host=`whoami`
 
 # Options
-hibernate=''
-shutdown=''
-reboot=''
-lock=''
-suspend=''
-logout=''
-yes=''
-no=''
+hibernate=''
+shutdown=''
+reboot=''
+lock=''
+suspend=''
+logout='󰍃'
+yes=''
+no='󰅚'
 
 # Rofi CMD
 rofi_cmd() {
 	rofi -dmenu \
-		-p " $USER@$host" \
-		-mesg " Last Login: $lastlogin |  Uptime: $uptime" \
+		-p " $USER@$host" \
+		-mesg " Last Login: $lastlogin | 󱤦 Uptime: $uptime" \
 		-theme ${dir}/${theme}.rasi
 }
 
@@ -102,11 +102,7 @@ case ${chosen} in
 		run_cmd --hibernate
         ;;
     $lock)
-		if [[ -x '/usr/bin/betterlockscreen' ]]; then
-			betterlockscreen -l
-		elif [[ -x '/usr/bin/i3lock' ]]; then
-			i3lock
-		fi
+		~/.config/scripts/lock.sh
         ;;
     $suspend)
 		run_cmd --suspend

@@ -56,7 +56,7 @@ https://github.com/user-attachments/assets/45aa163c-6457-4dc7-8442-c5d6dfd3cc08
 
 | Dashboard |
 |:-------------------:|
-| <img src="https://github.com/user-attachments/assets/0c12ef85-c154-4c0f-910e-c60d4f51a981" width="645"> |
+| <img src="https://github.com/user-attachments/assets/0c12ef85-c154-4c0f-910e-c60d4f51a981" width="650"> |
 
 ---
 

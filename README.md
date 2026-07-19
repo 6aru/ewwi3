@@ -4,7 +4,9 @@
 
 > A clean, minimalist, and feature-rich i3wm setup for Debian 13.
 <p align="center"> 
-| ![](https://github.com/user-attachments/assets/ef416bc3-610c-4ea6-9297-bbe713580999) | | :---------------------------------------------------------------: |
+
+  | ![](https://github.com/user-attachments/assets/ef416bc3-610c-4ea6-9297-bbe713580999) | 
+  | :---------------------------------------------------------------: |
 
 ![Debian](https://img.shields.io/badge/Debian-13-181818?style=for-the-badge&logo=debian)
 ![i3](https://img.shields.io/badge/WM-i3-181818?style=for-the-badge)

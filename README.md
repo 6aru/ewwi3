@@ -35,9 +35,9 @@ This repository provides a distraction-free, feature-rich **i3** configuration t
 * **Aesthetic**: Minimalist E-Ink dark theme.
 * **Window Management**: Clean i3wm setup with Autotiling enabled.
 * **Widgets (Eww)**: Custom status bar, control center, dashboard, weather, and notifications.
-* **Applets (Rofi)**: Fast app launcher and power menu.
-* **Compositor**: Picom integration for smooth rendering.
-* **Media & System**: Volume and brightness popups, MPD support, and browser media controls.
+* **Applets (Rofi)**: Fast app launcher, App menu and Power Menu.
+* **Compositor**: Picom integration for animation and smooth rendering.
+* **Media & System**: Volume and brightness popups, MPD and browser music controls.
 * **Lock Screen**: Secured beautifully with i3lock-color.
 
 ---

@@ -10,6 +10,7 @@
 ![Stars](https://img.shields.io/github/stars/6aru/ewwi3?style=for-the-badge&color=181818)
 ![Forks](https://img.shields.io/github/forks/6aru/ewwi3?style=for-the-badge&color=181818)
 ![Last Commit](https://img.shields.io/github/last-commit/6aru/ewwi3?style=for-the-badge&color=181818)
+![Last Commit](https://img.shields.io/github/last-commit/6aru/ewwi3?style=for-the-badge&cacheSeconds=60)
 
 </div>
 

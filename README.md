@@ -29,22 +29,16 @@ https://github.com/user-attachments/assets/45aa163c-6457-4dc7-8442-c5d6dfd3cc08
 
 # ⚡ Overview
 
-This repository provides a distraction-free i3wm configuration built around an **E-Ink inspired dark theme**. It combines a minimal appearance with practical features while staying lightweight and easy to maintain.
+This repository provides a distraction-free, feature-rich **i3** configuration tailored with an **E-Ink inspired dark theme**. Everything is pre-configured to work seamlessly, blending minimalism with high functionality.
 
-## ✨ Features
-
-- 🎨 E-Ink inspired dark theme
-- 🪟 Clean i3 window manager
-- 📐 Automatic tiling
-- 🚀 Rofi applets
-- 📊 Eww widgets
-- 🎵 MPD & browser media controls
-- 🔔 Notifications
-- 🔊 Volume & brightness popups
-- 🌤️ Weather widget
-- ⚙️ Configuration panel
-- 🔒 i3lock-color lock screen
-- ✨ Picom compositor with animations
+### Key Features
+* **Aesthetic**: Minimalist E-Ink dark theme.
+* **Window Management**: Clean i3wm setup with Autotiling enabled.
+* **Widgets (Eww)**: Custom status bar, control center, dashboard, weather, and notifications.
+* **Applets (Rofi)**: Fast app launcher and power menu.
+* **Compositor**: Picom integration for smooth rendering.
+* **Media & System**: Volume and brightness popups, MPD support, and browser media controls.
+* **Lock Screen**: Secured beautifully with i3lock-color.
 
 ---
 
@@ -88,7 +82,7 @@ This repository provides a distraction-free i3wm configuration built around an *
 
 ---
 
-### 🔒 Extras
+### i3lock-colors & Autotiling 
 
 | ![](https://github.com/user-attachments/assets/21214f10-6137-498d-b776-34d0f81dcf84) | ![](https://github.com/user-attachments/assets/56a46524-8d3b-4148-947d-df6d910d07dd) |
 |:---:|:---:|
@@ -96,7 +90,7 @@ This repository provides a distraction-free i3wm configuration built around an *
 
 ---
 
-# 📖 Installation
+# Getting Started
 
 Please read **[`GUIDE.md`](GUIDE.md)** before proceeding. 
 

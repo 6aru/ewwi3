@@ -1,98 +1,125 @@
 <div align="center">
 
 # i3 + Eww // E-Ink Dark
-> A lightweight, modern, and minimal desktop experience for **Debian 13**.[cite: 2]
 
-[![Debian](https://img.shields.io/badge/Debian-13-181818?style=for-the-badge&logo=debian)](#) [![WM](https://img.shields.io/badge/WM-i3-181818?style=for-the-badge)](#) [![Widgets](https://img.shields.io/badge/Widgets-Eww-181818?style=for-the-badge)](#) [![Stars](https://img.shields.io/github/stars/6aru/ewwi3?style=for-the-badge&color=181818)](#)
+> A clean, minimalist, and feature-rich i3wm setup for Debian 13.
 
-https://github.com/user-attachments/assets/45aa163c-6457-4dc7-8442-c5d6dfd3cc08[cite: 2]
+![Debian](https://img.shields.io/badge/Debian-13-181818?style=for-the-badge&logo=debian)
+![i3](https://img.shields.io/badge/WM-i3-181818?style=for-the-badge)
+![Eww](https://img.shields.io/badge/Widgets-Eww-181818?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/6aru/ewwi3?style=for-the-badge&color=181818)
+![Forks](https://img.shields.io/github/forks/6aru/ewwi3?style=for-the-badge&color=181818)
+![Last Commit](https://img.shields.io/github/last-commit/6aru/ewwi3?style=for-the-badge&color=181818)
 
 </div>
 
 ---
 
-## ⚡ Overview
+## 🎬 Preview
 
-This repository provides a distraction-free, feature-rich **i3** configuration tailored with an **E-Ink inspired dark theme**.[cite: 2] Everything is pre-configured to work seamlessly, blending minimalism with high functionality.[cite: 2]
+> Complete desktop showcase
 
-### Key Features
-* **Aesthetic**: Minimalist E-Ink dark theme.[cite: 2]
-* **Window Management**: Clean i3wm setup with Autotiling enabled.[cite: 2]
-* **Widgets (Eww)**: Custom status bar, control center, dashboard, weather, and notifications.[cite: 2]
-* **Applets (Rofi)**: Fast app launcher and power menu.[cite: 2]
-* **Compositor**: Picom integration for smooth rendering.[cite: 2]
-* **Media & System**: Volume and brightness popups, MPD support, and browser media controls.[cite: 2]
-* **Lock Screen**: Secured beautifully with i3lock-color.[cite: 2]
+https://github.com/user-attachments/assets/45aa163c-6457-4dc7-8442-c5d6dfd3cc08
 
 ---
 
-## 🖼️ Showcase
+# ⚡ Overview
 
-<details>
-<summary><b>System Controls & Rofi</b></summary>
-<br>
+This repository provides a distraction-free i3wm configuration built around an **E-Ink inspired dark theme**. It combines a minimal appearance with practical features while staying lightweight and easy to maintain.
 
-| Launcher | Menu | Power |
-| :---: | :---: | :---: |
-| ![](https://github.com/user-attachments/assets/53ef2336-9cba-4b11-82b2-b46a3aaf17a0)[cite: 2] | ![](https://github.com/user-attachments/assets/40639bc7-d708-4280-876e-1bfde4300e5a)[cite: 2] | ![](https://github.com/user-attachments/assets/49e46faa-57af-47dd-aa8a-5bb706b21715)[cite: 2] |
+## ✨ Features
 
+- 🎨 E-Ink inspired dark theme
+- 🪟 Clean i3 window manager
+- 📐 Automatic tiling
+- 🚀 Rofi applets
+- 📊 Eww widgets
+- 🎵 MPD & browser media controls
+- 🔔 Notifications
+- 🔊 Volume & brightness popups
+- 🌤️ Weather widget
+- ⚙️ Configuration panel
+- 🔒 i3lock-color lock screen
+- ✨ Picom compositor with animations
+
+---
+
+# 🖼️ Showcase
+
+> Everything shown below is included in this repository.
+
+### 🚀 Rofi Applets
+
+| ![](https://github.com/user-attachments/assets/53ef2336-9cba-4b11-82b2-b46a3aaf17a0) | ![](https://github.com/user-attachments/assets/40639bc7-d708-4280-876e-1bfde4300e5a) | ![](https://github.com/user-attachments/assets/49e46faa-57af-47dd-aa8a-5bb706b21715) |
+|:---:|:---:|:---:|
+| App Launcher | Menu | Power Menu |
+
+---
+
+### 🔊 System Controls
+
+| ![](https://github.com/user-attachments/assets/12371e3d-033e-4e95-a658-19e546acc5f2) | ![](https://github.com/user-attachments/assets/041c0e3b-cbf1-4f86-873f-4d5056264233) |
+|:---:|:---:|
 | Volume | Brightness |
-| :---: | :---: |
-| ![](https://github.com/user-attachments/assets/12371e3d-033e-4e95-a658-19e546acc5f2)[cite: 2] | ![](https://github.com/user-attachments/assets/041c0e3b-cbf1-4f86-873f-4d5056264233)[cite: 2] |
 
-</details>
+---
 
-<details>
-<summary><b>Eww Widgets & Panels</b></summary>
-<br>
+### 🧩 Widgets
 
-| Dashboard | Config Panel |
-| :---: | :---: |
-| ![](https://github.com/user-attachments/assets/0c12ef85-c154-4c0f-910e-c60d4f51a981)[cite: 2] | ![](https://github.com/user-attachments/assets/0fdfec86-5e05-4ed5-9df6-75bc4c26e3bb)[cite: 2] |
+| ![](https://github.com/user-attachments/assets/847e4267-65aa-471f-a3ac-2e3f55e7d8dd) | ![](https://github.com/user-attachments/assets/bf56757f-0d3a-4b42-9397-0ee19bf0e348) |
+|:---:|:---:|
+| Notifications | Control Center |
 
-| Control Center | Notifications | Weather |
-| :---: | :---: | :---: |
-| ![](https://github.com/user-attachments/assets/bf56757f-0d3a-4b42-9397-0ee19bf0e348)[cite: 2] | ![](https://github.com/user-attachments/assets/847e4267-65aa-471f-a3ac-2e3f55e7d8dd)[cite: 2] | ![](https://github.com/user-attachments/assets/9d79af29-c3c5-48a7-b57f-3da947cf38df)[cite: 2] |
-
+| ![](https://github.com/user-attachments/assets/8c731969-33a4-49c6-8e4c-a99427c87edd) | ![](https://github.com/user-attachments/assets/8fdabe32-0796-43a9-9bf9-1ae50d68d574) |
+|:---:|:---:|
 | MPD | Browser Media |
-| :---: | :---: |
-| ![](https://github.com/user-attachments/assets/8c731969-33a4-49c6-8e4c-a99427c87edd)[cite: 2] | ![](https://github.com/user-attachments/assets/8fdabe32-0796-43a9-9bf9-1ae50d68d574)[cite: 2] |
 
-</details>
+| ![](https://github.com/user-attachments/assets/0fdfec86-5e05-4ed5-9df6-75bc4c26e3bb) | ![](https://github.com/user-attachments/assets/9d79af29-c3c5-48a7-b57f-3da947cf38df) |
+|:---:|:---:|
+| Configuration Panel | Weather |
 
-<details>
-<summary><b>Extras</b></summary>
-<br>
+| ![](https://github.com/user-attachments/assets/0c12ef85-c154-4c0f-910e-c60d4f51a981) |
+|:---:|
+| Dashboard |
 
+---
+
+### 🔒 Extras
+
+| ![](https://github.com/user-attachments/assets/21214f10-6137-498d-b776-34d0f81dcf84) | ![](https://github.com/user-attachments/assets/56a46524-8d3b-4148-947d-df6d910d07dd) |
+|:---:|:---:|
 | Lock Screen | Autotiling |
-| :---: | :---: |
-| ![](https://github.com/user-attachments/assets/21214f10-6137-498d-b776-34d0f81dcf84)[cite: 2] | ![](https://github.com/user-attachments/assets/56a46524-8d3b-4148-947d-df6d910d07dd)[cite: 2] |
-
-</details>
 
 ---
 
-## 📖 Getting Started
+# 📖 Installation
 
-Please read **[`GUIDE.md`](GUIDE.md)** before proceeding.[cite: 2] 
+Please read **[GUIDE.md](GUIDE.md)** before installing.
 
-It covers everything required to replicate this setup, including:
-* Installation & Dependencies[cite: 2]
-* Configuration details[cite: 2]
-* Troubleshooting & Post-install setup[cite: 2]
+The guide includes:
+
+- Installation
+- Dependencies
+- Configuration
+- Post-install setup
+- Troubleshooting
 
 ---
 
-## 🙏 Credits 
+# 🙏 Credits
 
-This setup is a heavily modified and simplified evolution of the excellent work by [MDiaznf23](https://github.com/MDiaznf23).[cite: 2] 
-* Original repository: [`MDiaznf23/simple-autoricing-i3wm-dotfiles`](https://github.com/MDiaznf23/simple-autoricing-i3wm-dotfiles)[cite: 2]
+This repository is a heavily modified and simplified version of:
 
-If you found this configuration helpful in building your desktop, please consider leaving a ⭐ star.[cite: 2] 
+**https://github.com/MDiaznf23/simple-autoricing-i3wm-dotfiles**
+
+Huge thanks to **MDiaznf23** for the original project.
+
+---
 
 <div align="center">
-<br>
 
-**Made with ❤️ using i3 • Debian 13 • Eww**[cite: 2]
+### ⭐ If you found this repository useful, please consider leaving a star.
+
+Made with ❤️ using **i3 • Debian 13 • Eww**
 
 </div>

@@ -1,12 +1,11 @@
-## 🎬 Preview
-
 > A quick look at the complete desktop experience.
-
 <p align="center">
- | ![].(https://github.com/user-attachments/assets/ef416bc3-610c-4ea6-9297-bbe713580999). |
- | :-----------------------------------------------------------------------------------------------------------------------------: | 
-</p>
+ 
+| ![](https://github.com/user-attachments/assets/ef416bc3-610c-4ea6-9297-bbe713580999) |
+| :-----------------------------------------------------------------------------------------------------------------------------: |
+| **Preview** |
 
+</p>
 ---
 <div align="center">
 

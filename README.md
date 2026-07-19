@@ -20,23 +20,15 @@ https://github.com/user-attachments/assets/45aa163c-6457-4dc7-8442-c5d6dfd3cc08
 ---
 ## ✨ Showcase
 
-A quick look at the desktop and its main features.
+> Everything shown below is included in this repository and works on Debian 13 with i3wm + Eww.
 
 ---
 
-### 🚀 Launchers
+### 🚀 Rofi Applets
 
 | App Launcher | Menu | Power Menu |
 |:------------:|:----:|:----------:|
-| <img src="https://github.com/user-attachments/assets/53ef2336-9cba-4b11-82b2-b46a3aaf17a0" width="320"> | <img src="https://github.com/user-attachments/assets/40639bc7-d708-4280-876e-1bfde4300e5a" width="320"> | <img src="https://github.com/user-attachments/assets/49e46faa-57af-47dd-aa8a-5bb706b21715" width="320"> |
-
----
-
-### 🔒 Lock Screen
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/21214f10-6137-498d-b776-34d0f81dcf84" width="700">
-</p>
+| <img src="https://github.com/user-attachments/assets/53ef2336-9cba-4b11-82b2-b46a3aaf17a0" width="320"> | <img src="https://github.com/user-attachments/assets/56a46524-8d3b-4148-947d-df6d910d07dd" width="320"> | <img src="https://github.com/user-attachments/assets/49e46faa-57af-47dd-aa8a-5bb706b21715" width="320"> |
 
 ---
 
@@ -48,15 +40,7 @@ A quick look at the desktop and its main features.
 
 ---
 
-### 🎵 Media
-
-| MPD | Browser Media |
-|:---:|:-------------:|
-| <img src="https://github.com/user-attachments/assets/8c731969-33a4-49c6-8e4c-a99427c87edd" width="320"> | <img src="https://github.com/user-attachments/assets/8fdabe32-0796-43a9-9bf9-1ae50d68d574" width="320"> |
-
----
-
-### 🔔 Widgets
+### 🧩 Widgets
 
 | Notifications | Control Center |
 |:-------------:|:--------------:|
@@ -66,10 +50,29 @@ A quick look at the desktop and its main features.
 |:---------:|:-------:|
 | <img src="https://github.com/user-attachments/assets/0c12ef85-c154-4c0f-910e-c60d4f51a981" width="320"> | <img src="https://github.com/user-attachments/assets/9d79af29-c3c5-48a7-b57f-3da947cf38df" width="320"> |
 
-| Configuration Panel | Autotiling |
-|:-------------------:|:----------:|
-| <img src="https://github.com/user-attachments/assets/0fdfec86-5e05-4ed5-9df6-75bc4c26e3bb" width="320"> | <img src="https://github.com/user-attachments/assets/56a46524-8d3b-4148-947d-df6d910d07dd" width="320"> |
-> Everything shown below is included in this repository and works on Debian 13 with i3wm + Eww.
+| Configuration Panel | MPD |
+|:-------------------:|:---:|
+| <img src="https://github.com/user-attachments/assets/0fdfec86-5e05-4ed5-9df6-75bc4c26e3bb" width="320"> | <img src="https://github.com/user-attachments/assets/8c731969-33a4-49c6-8e4c-a99427c87edd" width="320"> |
+
+| Browser Media |
+|:-------------:|
+| <img src="https://github.com/user-attachments/assets/8fdabe32-0796-43a9-9bf9-1ae50d68d574" width="320"> |
+
+---
+
+### ⭐ Extras
+
+#### 🔒 Lock Screen
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/21214f10-6137-498d-b776-34d0f81dcf84" width="780">
+</p>
+
+#### 🪟 Autotiling
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/40639bc7-d708-4280-876e-1bfde4300e5a" width="780">
+</p>
 ---
 
 ## 📖 Getting Started

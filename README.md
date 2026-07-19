@@ -46,33 +46,27 @@ https://github.com/user-attachments/assets/45aa163c-6457-4dc7-8442-c5d6dfd3cc08
 |:-------------:|:--------------:|
 | <img src="https://github.com/user-attachments/assets/847e4267-65aa-471f-a3ac-2e3f55e7d8dd" width="320"> | <img src="https://github.com/user-attachments/assets/bf56757f-0d3a-4b42-9397-0ee19bf0e348" width="320"> |
 
-| Dashboard | Weather |
-|:---------:|:-------:|
-| <img src="https://github.com/user-attachments/assets/0c12ef85-c154-4c0f-910e-c60d4f51a981" width="320"> | <img src="https://github.com/user-attachments/assets/9d79af29-c3c5-48a7-b57f-3da947cf38df" width="320"> |
+| MPD | Browser Media |
+|:---:|:-------------:|
+| <img src="https://github.com/user-attachments/assets/8c731969-33a4-49c6-8e4c-a99427c87edd" width="320"> | <img src="https://github.com/user-attachments/assets/8fdabe32-0796-43a9-9bf9-1ae50d68d574" width="320"> |
 
-| Configuration Panel | MPD |
-|:-------------------:|:---:|
-| <img src="https://github.com/user-attachments/assets/0fdfec86-5e05-4ed5-9df6-75bc4c26e3bb" width="320"> | <img src="https://github.com/user-attachments/assets/8c731969-33a4-49c6-8e4c-a99427c87edd" width="320"> |
+| Configuration Panel | Weather |
+|:-------------------:|:-------:|
+| <img src="https://github.com/user-attachments/assets/0fdfec86-5e05-4ed5-9df6-75bc4c26e3bb" width="320"> | <img src="https://github.com/user-attachments/assets/9d79af29-c3c5-48a7-b57f-3da947cf38df" width="320"> |
 
-| Browser Media |
-|:-------------:|
-| <img src="https://github.com/user-attachments/assets/8fdabe32-0796-43a9-9bf9-1ae50d68d574" width="320"> |
+#### Dashboard
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0c12ef85-c154-4c0f-910e-c60d4f51a981" width="760">
+</p>
 
 ---
 
 ### ⭐ Extras
 
-#### 🔒 Lock Screen
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/21214f10-6137-498d-b776-34d0f81dcf84" width="780">
-</p>
-
-#### 🪟 Autotiling
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/40639bc7-d708-4280-876e-1bfde4300e5a" width="780">
-</p>
+| 🔒 Lock Screen | 🪟 Autotiling |
+|:--------------:|:-------------:|
+| <img src="https://github.com/user-attachments/assets/21214f10-6137-498d-b776-34d0f81dcf84" width="420"> | <img src="https://github.com/user-attachments/assets/40639bc7-d708-4280-876e-1bfde4300e5a" width="420"> |
 ---
 
 ## 📖 Getting Started

@@ -3,7 +3,8 @@
 > A quick look at the complete desktop experience.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ef416bc3-610c-4ea6-9297-bbe713580999" alt="i3 + Eww Preview">
+ | <img src="https://github.com/user-attachments/assets/ef416bc3-610c-4ea6-9297-bbe713580999" alt="i3 + Eww Preview"> |
+ | :-----------------------------------------------------------------------------------------------------------------------------: | 
 </p>
 
 ---

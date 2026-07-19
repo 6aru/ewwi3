@@ -108,9 +108,11 @@ The guide includes:
 
 # 🙏 Credits
 
-This repository is a heavily modified and simplified version of MDiaznf23's [**simple-autoricing-i3wm-dotfiles**](https://github.com/MDiaznf23/simple-autoricing-i3wm-dotfiles).
+This repository is a heavily modified and simplified version of:
 
-Huge thanks to [**MDiaznf23**](https://github.com/MDiaznf23) for the original project.
+**https://github.com/MDiaznf23/simple-autoricing-i3wm-dotfiles**
+
+Huge thanks to **MDiaznf23** for the original project.
 
 ---
 

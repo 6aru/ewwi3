@@ -6,7 +6,9 @@
 | **Preview** |
 
 </p>
+
 ---
+
 <div align="center">
 
 # Clean, Minimal & Feature-Rich i3 + Eww Setup

@@ -60,7 +60,7 @@ A quick look at the desktop and its main features.
 
 | Notifications | Control Center |
 |:-------------:|:--------------:|
-| <img src="https://github.com/user-attachments/assets/49e46faa-57af-47dd-aa8a-5bb706b21715" width="320"> | <img src="https://github.com/user-attachments/assets/53ef2336-9cba-4b11-82b2-b46a3aaf17a0" width="320"> |
+| <img src="https://github.com/user-attachments/assets/49e46faa-57af-47dd-aa8a-5bb706b21715" width="320"> | <img src="https://github.com/user-attachments/assets/bf56757f-0d3a-4b42-9397-0ee19bf0e348" width="320"> |
 
 | Dashboard | Weather |
 |:---------:|:-------:|

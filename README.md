@@ -28,7 +28,7 @@ A quick look at the desktop and its main features.
 
 | App Launcher | Menu | Power Menu |
 |:------------:|:----:|:----------:|
-| <img src="https://github.com/user-attachments/assets/53ef2336-9cba-4b11-82b2-b46a3aaf17a0" width="320"> | <img src="https://github.com/user-attachments/assets/041c0e3b-cbf1-4f86-873f-4d5056264233" width="320"> | <img src="https://github.com/user-attachments/assets/0fdfec86-5e05-4ed5-9df6-75bc4c26e3bb" width="320"> |
+| <img src="https://github.com/user-attachments/assets/53ef2336-9cba-4b11-82b2-b46a3aaf17a0" width="320"> | <img src="https://github.com/user-attachments/assets/40639bc7-d708-4280-876e-1bfde4300e5a" width="320"> | <img src="https://github.com/user-attachments/assets/0fdfec86-5e05-4ed5-9df6-75bc4c26e3bb" width="320"> |
 
 ---
 
@@ -64,7 +64,7 @@ A quick look at the desktop and its main features.
 
 | Dashboard | Weather |
 |:---------:|:-------:|
-| <img src="https://github.com/user-attachments/assets/40639bc7-d708-4280-876e-1bfde4300e5a" width="320"> | <img src="https://github.com/user-attachments/assets/12371e3d-033e-4e95-a658-19e546acc5f2" width="320"> |
+| <img src="" width="320"> | <img src="https://github.com/user-attachments/assets/12371e3d-033e-4e95-a658-19e546acc5f2" width="320"> |
 
 | Configuration Panel | Autotiling |
 |:-------------------:|:----------:|

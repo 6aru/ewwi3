@@ -98,23 +98,20 @@ This repository provides a distraction-free i3wm configuration built around an *
 
 # 📖 Installation
 
-Please read **[GUIDE.md](GUIDE.md)** before installing.
+Please read **[`GUIDE.md`](GUIDE.md)** before proceeding. 
 
-The guide includes:
-
-- Installation
-- Dependencies
-- Configuration
-- Post-install setup
-- Troubleshooting
+It covers everything required to replicate this setup, including:
+* Installation & Dependencies.
+* Configuration details.
+* Troubleshooting & Post-install setup.
 
 ---
 
 # 🙏 Credits
 
-This repository is a heavily modified and simplified version of MDiaznf23's [**simple-autoricing-i3wm-dotfiles**](https://github.com/MDiaznf23/simple-autoricing-i3wm-dotfiles)
+>This repository is a heavily modified and simplified version of MDiaznf23's [**simple-autoricing-i3wm-dotfiles**](https://github.com/MDiaznf23/simple-autoricing-i3wm-dotfiles)
 
-Huge thanks to [**MDiaznf23**](https://github.com/MDiaznf23) for the original project.
+>Huge thanks to [**MDiaznf23**](https://github.com/MDiaznf23) for the original project.
 
 ---
 

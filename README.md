@@ -35,7 +35,7 @@ A quick look at the desktop and its main features.
 ### 🔒 Lock Screen
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/bf56757f-0d3a-4b42-9397-0ee19bf0e348" width="700">
+<img src="https://github.com/user-attachments/assets/21214f10-6137-498d-b776-34d0f81dcf84" width="700">
 </p>
 
 ---
@@ -44,7 +44,7 @@ A quick look at the desktop and its main features.
 
 | Volume | Brightness |
 |:------:|:----------:|
-| <img src="https://github.com/user-attachments/assets/21214f10-6137-498d-b776-34d0f81dcf84" width="320"> | <img src="https://github.com/user-attachments/assets/8fdabe32-0796-43a9-9bf9-1ae50d68d574" width="320"> |
+| <img src="https://github.com/user-attachments/assets/12371e3d-033e-4e95-a658-19e546acc5f2" width="320"> | <img src="https://github.com/user-attachments/assets/8fdabe32-0796-43a9-9bf9-1ae50d68d574" width="320"> |
 
 ---
 

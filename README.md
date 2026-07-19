@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌑 Clean, Minimal & Feature-Rich i3 + Eww Setup
+# Clean, Minimal & Feature-Rich i3 + Eww Setup
 
 A lightweight and modern **i3** desktop for **Debian 13** with an **E-Ink inspired dark theme**, **Eww widgets**, **Rofi**, **Picom**, and carefully selected defaults for a clean, distraction-free experience.
 

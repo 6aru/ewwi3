@@ -64,7 +64,7 @@ A quick look at the desktop and its main features.
 
 | Dashboard | Weather |
 |:---------:|:-------:|
-| <img src="" width="320"> | <img src="https://github.com/user-attachments/assets/9d79af29-c3c5-48a7-b57f-3da947cf38df" width="320"> |
+| <img src="https://github.com/user-attachments/assets/0c12ef85-c154-4c0f-910e-c60d4f51a981" width="320"> | <img src="https://github.com/user-attachments/assets/9d79af29-c3c5-48a7-b57f-3da947cf38df" width="320"> |
 
 | Configuration Panel | Autotiling |
 |:-------------------:|:----------:|

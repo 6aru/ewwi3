@@ -28,7 +28,7 @@ A quick look at the desktop and its main features.
 
 | App Launcher | Menu | Power Menu |
 |:------------:|:----:|:----------:|
-| <img src="https://github.com/user-attachments/assets/56a46524-8d3b-4148-947d-df6d910d07dd" width="320"> | <img src="https://github.com/user-attachments/assets/041c0e3b-cbf1-4f86-873f-4d5056264233" width="320"> | <img src="https://github.com/user-attachments/assets/0fdfec86-5e05-4ed5-9df6-75bc4c26e3bb" width="320"> |
+| <img src="https://github.com/user-attachments/assets/53ef2336-9cba-4b11-82b2-b46a3aaf17a0" width="320"> | <img src="https://github.com/user-attachments/assets/041c0e3b-cbf1-4f86-873f-4d5056264233" width="320"> | <img src="https://github.com/user-attachments/assets/0fdfec86-5e05-4ed5-9df6-75bc4c26e3bb" width="320"> |
 
 ---
 

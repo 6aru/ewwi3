@@ -28,7 +28,7 @@ A quick look at the desktop and its main features.
 
 | App Launcher | Menu | Power Menu |
 |:------------:|:----:|:----------:|
-| <img src="https://github.com/user-attachments/assets/53ef2336-9cba-4b11-82b2-b46a3aaf17a0" width="320"> | <img src="https://github.com/user-attachments/assets/40639bc7-d708-4280-876e-1bfde4300e5a" width="320"> | <img src="https://github.com/user-attachments/assets/0fdfec86-5e05-4ed5-9df6-75bc4c26e3bb" width="320"> |
+| <img src="https://github.com/user-attachments/assets/53ef2336-9cba-4b11-82b2-b46a3aaf17a0" width="320"> | <img src="https://github.com/user-attachments/assets/40639bc7-d708-4280-876e-1bfde4300e5a" width="320"> | <img src="https://github.com/user-attachments/assets/49e46faa-57af-47dd-aa8a-5bb706b21715" width="320"> |
 
 ---
 
@@ -52,7 +52,7 @@ A quick look at the desktop and its main features.
 
 | MPD | Browser Media |
 |:---:|:-------------:|
-| <img src="https://github.com/user-attachments/assets/8c731969-33a4-49c6-8e4c-a99427c87edd" width="320"> | <img src="https://github.com/user-attachments/assets/847e4267-65aa-471f-a3ac-2e3f55e7d8dd" width="320"> |
+| <img src="https://github.com/user-attachments/assets/8c731969-33a4-49c6-8e4c-a99427c87edd" width="320"> | <img src="https://github.com/user-attachments/assets/8fdabe32-0796-43a9-9bf9-1ae50d68d574" width="320"> |
 
 ---
 
@@ -60,7 +60,7 @@ A quick look at the desktop and its main features.
 
 | Notifications | Control Center |
 |:-------------:|:--------------:|
-| <img src="https://github.com/user-attachments/assets/49e46faa-57af-47dd-aa8a-5bb706b21715" width="320"> | <img src="https://github.com/user-attachments/assets/bf56757f-0d3a-4b42-9397-0ee19bf0e348" width="320"> |
+| <img src="https://github.com/user-attachments/assets/847e4267-65aa-471f-a3ac-2e3f55e7d8dd" width="320"> | <img src="https://github.com/user-attachments/assets/bf56757f-0d3a-4b42-9397-0ee19bf0e348" width="320"> |
 
 | Dashboard | Weather |
 |:---------:|:-------:|

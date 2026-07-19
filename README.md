@@ -18,6 +18,59 @@ https://github.com/user-attachments/assets/45aa163c-6457-4dc7-8442-c5d6dfd3cc08
 </div>
 
 ---
+## ✨ Showcase
+
+A quick look at the desktop and its main features.
+
+---
+
+### 🚀 Launchers
+
+| App Launcher | Menu | Power Menu |
+|:------------:|:----:|:----------:|
+| <img src="https://github.com/user-attachments/assets/56a46524-8d3b-4148-947d-df6d910d07dd" width="320"> | <img src="https://github.com/user-attachments/assets/041c0e3b-cbf1-4f86-873f-4d5056264233" width="320"> | <img src="https://github.com/user-attachments/assets/0fdfec86-5e05-4ed5-9df6-75bc4c26e3bb" width="320"> |
+
+---
+
+### 🔒 Lock Screen
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/bf56757f-0d3a-4b42-9397-0ee19bf0e348" width="700">
+</p>
+
+---
+
+### 🔊 System Controls
+
+| Volume | Brightness |
+|:------:|:----------:|
+| <img src="https://github.com/user-attachments/assets/21214f10-6137-498d-b776-34d0f81dcf84" width="320"> | <img src="https://github.com/user-attachments/assets/8fdabe32-0796-43a9-9bf9-1ae50d68d574" width="320"> |
+> Everything shown below is included in this repository and works on Debian 13 with i3wm + Eww.
+---
+
+### 🎵 Media
+
+| MPD | Browser Media |
+|:---:|:-------------:|
+| <img src="https://github.com/user-attachments/assets/8c731969-33a4-49c6-8e4c-a99427c87edd" width="320"> | <img src="https://github.com/user-attachments/assets/847e4267-65aa-471f-a3ac-2e3f55e7d8dd" width="320"> |
+
+---
+
+### 🔔 Widgets
+
+| Notifications | Control Center |
+|:-------------:|:--------------:|
+| <img src="https://github.com/user-attachments/assets/49e46faa-57af-47dd-aa8a-5bb706b21715" width="320"> | <img src="https://github.com/user-attachments/assets/53ef2336-9cba-4b11-82b2-b46a3aaf17a0" width="320"> |
+
+| Dashboard | Weather |
+|:---------:|:-------:|
+| <img src="https://github.com/user-attachments/assets/40639bc7-d708-4280-876e-1bfde4300e5a" width="320"> | <img src="https://github.com/user-attachments/assets/12371e3d-033e-4e95-a658-19e546acc5f2" width="320"> |
+
+| Configuration Panel | Autotiling |
+|:-------------------:|:----------:|
+| <img src="https://github.com/user-attachments/assets/9d79af29-c3c5-48a7-b57f-3da947cf38df" width="320"> | <img src="https://github.com/user-attachments/assets/45aa163c-6457-4dc7-8442-c5d6dfd3cc08" width="320"> |
+
+---
 
 ## 📖 Getting Started
 

@@ -54,15 +54,11 @@ https://github.com/user-attachments/assets/45aa163c-6457-4dc7-8442-c5d6dfd3cc08
 |:-------------------:|:-------:|
 | <img src="https://github.com/user-attachments/assets/0fdfec86-5e05-4ed5-9df6-75bc4c26e3bb" width="320"> | <img src="https://github.com/user-attachments/assets/9d79af29-c3c5-48a7-b57f-3da947cf38df" width="320"> |
 
-#### Dashboard
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0c12ef85-c154-4c0f-910e-c60d4f51a981" width="760">
-</p>
+| Dashboard |
+|:-------------------:|
+| <img src="https://github.com/user-attachments/assets/0c12ef85-c154-4c0f-910e-c60d4f51a981" width="640"> |
 
 ---
-
-### ⭐ Extras
 
 | 🔒 Lock Screen | 🪟 Autotiling |
 |:--------------:|:-------------:|

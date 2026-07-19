@@ -83,7 +83,7 @@ It covers everything required to replicate this setup, including:
 
 ---
 
-## 🙏 Acknowledgements
+## 🙏 Credits 
 
 This setup is a heavily modified and simplified evolution of the excellent work by [MDiaznf23](https://github.com/MDiaznf23).[cite: 2] 
 * Original repository: [`MDiaznf23/simple-autoricing-i3wm-dotfiles`](https://github.com/MDiaznf23/simple-autoricing-i3wm-dotfiles)[cite: 2]

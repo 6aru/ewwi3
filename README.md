@@ -45,7 +45,7 @@ A quick look at the desktop and its main features.
 | Volume | Brightness |
 |:------:|:----------:|
 | <img src="https://github.com/user-attachments/assets/21214f10-6137-498d-b776-34d0f81dcf84" width="320"> | <img src="https://github.com/user-attachments/assets/8fdabe32-0796-43a9-9bf9-1ae50d68d574" width="320"> |
-> Everything shown below is included in this repository and works on Debian 13 with i3wm + Eww.
+
 ---
 
 ### 🎵 Media
@@ -69,7 +69,7 @@ A quick look at the desktop and its main features.
 | Configuration Panel | Autotiling |
 |:-------------------:|:----------:|
 | <img src="https://github.com/user-attachments/assets/9d79af29-c3c5-48a7-b57f-3da947cf38df" width="320"> | <img src="https://github.com/user-attachments/assets/45aa163c-6457-4dc7-8442-c5d6dfd3cc08" width="320"> |
-
+> Everything shown below is included in this repository and works on Debian 13 with i3wm + Eww.
 ---
 
 ## 📖 Getting Started

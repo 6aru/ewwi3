@@ -4,7 +4,7 @@
 
 > A clean, minimalist, and feature-rich i3wm setup for Debian 13.
 <p align="center"> 
-
+  
   | ![](https://github.com/user-attachments/assets/ef416bc3-610c-4ea6-9297-bbe713580999) | 
   | :---------------------------------------------------------------: |
 
@@ -112,11 +112,9 @@ The guide includes:
 
 # 🙏 Credits
 
-This repository is a heavily modified and simplified version of:
+This repository is a heavily modified and simplified version of MDiaznf23's [**simple-autoricing-i3wm-dotfiles**](https://github.com/MDiaznf23/simple-autoricing-i3wm-dotfiles)
 
-**https://github.com/MDiaznf23/simple-autoricing-i3wm-dotfiles**
-
-Huge thanks to **MDiaznf23** for the original project.
+Huge thanks to [**MDiaznf23**](https://github.com/MDiaznf23) for the original project.
 
 ---
 

@@ -64,11 +64,11 @@ A quick look at the desktop and its main features.
 
 | Dashboard | Weather |
 |:---------:|:-------:|
-| <img src="" width="320"> | <img src="https://github.com/user-attachments/assets/12371e3d-033e-4e95-a658-19e546acc5f2" width="320"> |
+| <img src="" width="320"> | <img src="https://github.com/user-attachments/assets/9d79af29-c3c5-48a7-b57f-3da947cf38df" width="320"> |
 
 | Configuration Panel | Autotiling |
 |:-------------------:|:----------:|
-| <img src="https://github.com/user-attachments/assets/9d79af29-c3c5-48a7-b57f-3da947cf38df" width="320"> | <img src="https://github.com/user-attachments/assets/56a46524-8d3b-4148-947d-df6d910d07dd" width="320"> |
+| <img src="https://github.com/user-attachments/assets/0fdfec86-5e05-4ed5-9df6-75bc4c26e3bb" width="320"> | <img src="https://github.com/user-attachments/assets/56a46524-8d3b-4148-947d-df6d910d07dd" width="320"> |
 > Everything shown below is included in this repository and works on Debian 13 with i3wm + Eww.
 ---
 

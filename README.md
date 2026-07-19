@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/45aa163c-6457-4dc7-8442-c5d6dfd3cc08
 
 | App Launcher | Menu | Power Menu |
 |:------------:|:----:|:----------:|
-| <img src="https://github.com/user-attachments/assets/53ef2336-9cba-4b11-82b2-b46a3aaf17a0" width="320"> | <img src="https://github.com/user-attachments/assets/56a46524-8d3b-4148-947d-df6d910d07dd" width="320"> | <img src="https://github.com/user-attachments/assets/49e46faa-57af-47dd-aa8a-5bb706b21715" width="320"> |
+| <img src="https://github.com/user-attachments/assets/53ef2336-9cba-4b11-82b2-b46a3aaf17a0" width="320"> | <img src="https://github.com/user-attachments/assets/40639bc7-d708-4280-876e-1bfde4300e5a" width="320"> | <img src="https://github.com/user-attachments/assets/49e46faa-57af-47dd-aa8a-5bb706b21715" width="320"> |
 
 ---
 
@@ -56,13 +56,13 @@ https://github.com/user-attachments/assets/45aa163c-6457-4dc7-8442-c5d6dfd3cc08
 
 | Dashboard |
 |:-------------------:|
-| <img src="https://github.com/user-attachments/assets/0c12ef85-c154-4c0f-910e-c60d4f51a981" width="640"> |
+| <img src="https://github.com/user-attachments/assets/0c12ef85-c154-4c0f-910e-c60d4f51a981" width="645"> |
 
 ---
 
 | 🔒 Lock Screen | 🪟 Autotiling |
 |:--------------:|:-------------:|
-| <img src="https://github.com/user-attachments/assets/21214f10-6137-498d-b776-34d0f81dcf84" width="420"> | <img src="https://github.com/user-attachments/assets/40639bc7-d708-4280-876e-1bfde4300e5a" width="420"> |
+| <img src="https://github.com/user-attachments/assets/21214f10-6137-498d-b776-34d0f81dcf84" width="420"> | <img src="https://github.com/user-attachments/assets/56a46524-8d3b-4148-947d-df6d910d07dd" width="420"> |
 ---
 
 ## 📖 Getting Started

@@ -1,8 +1,16 @@
+## 🎬 Preview
+
+> A quick look at the complete desktop experience.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ef416bc3-610c-4ea6-9297-bbe713580999" alt="i3 + Eww Preview">
+</p>
+
+---
 <div align="center">
 
 # Clean, Minimal & Feature-Rich i3 + Eww Setup
-
-A lightweight and modern **i3** desktop for **Debian 13** with an **E-Ink inspired dark theme**, **Eww widgets**, **Rofi**, **Picom**, and carefully selected defaults for a clean, distraction-free experience.
+> A lightweight and modern **i3** desktop for **Debian 13** with an **E-Ink inspired dark theme**, **Eww widgets**, **Rofi**, **Picom**, and carefully selected defaults for a clean, distraction-free experience.
 
 https://github.com/user-attachments/assets/45aa163c-6457-4dc7-8442-c5d6dfd3cc08
 <div align="center">

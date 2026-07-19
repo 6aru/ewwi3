@@ -44,7 +44,7 @@ A quick look at the desktop and its main features.
 
 | Volume | Brightness |
 |:------:|:----------:|
-| <img src="https://github.com/user-attachments/assets/12371e3d-033e-4e95-a658-19e546acc5f2" width="320"> | <img src="https://github.com/user-attachments/assets/8fdabe32-0796-43a9-9bf9-1ae50d68d574" width="320"> |
+| <img src="https://github.com/user-attachments/assets/12371e3d-033e-4e95-a658-19e546acc5f2" width="320"> | <img src="https://github.com/user-attachments/assets/041c0e3b-cbf1-4f86-873f-4d5056264233" width="320"> |
 
 ---
 

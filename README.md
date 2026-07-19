@@ -6,6 +6,7 @@
 | **Preview** |
 
 </p>
+
 <div align="center">
 
 ![Debian](https://img.shields.io/badge/Debian-13-A81D33?style=for-the-badge&logo=debian)
@@ -16,6 +17,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/6aru/ewwi3?style=for-the-badge)
 
 </div>
+
 ---
 
 <div align="center">

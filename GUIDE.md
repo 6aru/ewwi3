@@ -103,6 +103,7 @@ xss-lock \
 i3lock \
 xclip \
 scrot \
+socat \
 playerctl \
 mpdris2 \
 brightnessctl \

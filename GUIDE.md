@@ -643,4 +643,4 @@ The goal is to create a desktop that is:
 - Beginner friendly
 - Debian focused
 
-Every application, widget, launcher, notification, and script follows the same visual style to provide a cohesive desktop experience.
+Every application, widget, launcher, notification, and script follows the same visual style to provide a cohesive desktop experience. And check out my [**Dotfiles**](https://github.com/6aru/Dotfiles) for Kitty, Fastfetch, mpd, rmpc etc configs. 

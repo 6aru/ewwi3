@@ -272,7 +272,27 @@ Recommended Fonts
 
 # 7. GTK Theme
 
-Recommended
+Recommended.
+## Install Colloid GTK & Icons
+
+This setup uses the **Colloid Dark** GTK theme and icon pack.
+
+Please follow the official installation guide before continuing.
+
+### GTK Theme
+https://github.com/vinceliuice/Colloid-gtk-theme
+
+### Icon Theme
+https://github.com/vinceliuice/Colloid-icon-theme
+
+After installation, open:
+
+Settings → Appearance
+
+Select:
+
+- GTK Theme → Colloid Dark
+- Icons → Colloid Dark
 
 GTK Theme
 
@@ -285,6 +305,8 @@ Icons
 ```
 Colloid-Dark
 ```
+
+or
 
 Set using
 
@@ -316,28 +338,54 @@ killall xsettingsd
 xsettingsd &
 ```
 
----
+# 8. Lock Screen
 
-# 8. Wallpaper
-
-Copy
+Uses
 
 ```
-wallpaper/eink.jpg
+i3lock-color
 ```
+>Try
+```bash
+sudo apt install i3lock-color
+```
+>If nothing is found, don't worry. Some Debian releases don't package it separately because Debian ships the upstream i3lock instead.
 
-to
+>(Recommended)Build i3lock-color from source.
+Install dependencies.
+```bash
+sudo apt install \
+  autoconf gcc make pkg-config \
+  libpam0g-dev libcairo2-dev libfontconfig1-dev \
+  libxcb-composite0-dev libev-dev libx11-xcb-dev \
+  libxcb-xkb-dev libxcb-xinerama0-dev \
+  libxcb-randr0-dev libxcb-image0-dev \
+  libxcb-util0-dev libxcb-xrm-dev \
+  libxkbcommon-dev libxkbcommon-x11-dev \
+  libgif-dev/
+  libjpeg-dev git
+```
+Clone.
+```bash
+git clone https://github.com/Raymo111/i3lock-color.git
+cd i3lock-color
+```
+Build.
+```bash
+./build.sh
+sudo ./install-i3lock-color.sh
+```
+Verify.
+```bash
+i3lock --version
+```
+> should report i3lock-color.
+
+Shortcut
 
 ```
-~/.config/wallpaper/
+Super + L
 ```
-
-Final path
-
-```
-~/.config/wallpaper/eink.jpg
-```
-
 ---
 
 # 9. Install Configuration
@@ -425,57 +473,6 @@ dunst &
 
 ---
 
-# 14. Lock Screen
-
-Uses
-
-```
-i3lock-color
-```
->Try
-```bash
-sudo apt install i3lock-color
-```
->If nothing is found, don't worry. Some Debian releases don't package it separately because Debian ships the upstream i3lock instead.
-
->(Recommended)Build i3lock-color from source.
-Install dependencies.
-```bash
-sudo apt install \
-  autoconf gcc make pkg-config \
-  libpam0g-dev libcairo2-dev libfontconfig1-dev \
-  libxcb-composite0-dev libev-dev libx11-xcb-dev \
-  libxcb-xkb-dev libxcb-xinerama0-dev \
-  libxcb-randr0-dev libxcb-image0-dev \
-  libxcb-util0-dev libxcb-xrm-dev \
-  libxkbcommon-dev libxkbcommon-x11-dev \
-  libgif-dev/
-  libjpeg-dev git
-```
-Clone.
-```bash
-git clone https://github.com/Raymo111/i3lock-color.git
-cd i3lock-color
-```
-Build.
-```bash
-./build.sh
-sudo ./install-i3lock-color.sh
-```
-Verify.
-```bash
-i3lock --version
-```
-> should report i3lock-color.
-
-Shortcut
-
-```
-Super + L
-```
-
----
-
 # 15. Weather Widget
 
 Uses
@@ -528,7 +525,6 @@ Applications
 
 - Firefox ESR
 - Brave
-- Ghostty
 - Kitty
 - Thunar
 - LocalSend
@@ -538,35 +534,42 @@ Applications
 # 18. Directory Structure
 
 ```
-.
-├── fonts/
-├── .config/
-│   ├── eww/
-│   ├── rofi/
-│   ├── dunst/
-│   ├── picom/
-│   ├── scripts/
-│   ├── xsettingsd/
-│   ├── i3/
-│   └── wallpaper/
-├── README.md
-└── GUIDE.md
+ .config/
+    ├── dunst/
+    │   └── dunstrc
+    ├── eww/
+    │   ├── apps.json
+    │   ├── assets/
+    │   ├── colors.scss
+    │   ├── eww.scss
+    │   ├── eww.yuck
+    │   ├── my-notes.txt
+    │   ├── scripts/
+    │   ├── styling/
+    │   └── widgets/
+    ├── i3/
+    │   ├── autostart.sh
+    │   ├── brightness.sh
+    │   ├── config
+    │   ├── config-dotfiles
+    │   └── i3-help.sh
+    ├── picom/
+    │   └── picom.conf
+    ├── rofi/
+    │   ├── config.rasi
+    │   ├── dock-confirm.rasi
+    │   ├── keybinds.rasi
+    │   ├── launchers/
+    │   ├── powermenu/
+    │   ├── rofi.rasi
+    │   └── wifi-password.rasi
+    ├── scripts/
+    │   ├── lock.sh
+    │   ├── ws_cycle.py
+    │   └── ws_cycle.sh
+    └── wallpaper/
+        └── eink.jpg
 ```
-
----
-
-# 19. Not Included
-
-This configuration intentionally does **not** include
-
-- m3wal
-- pywal
-- sxhkd
-- Alacritty
-- Fastfetch
-- Material You dynamic colors
-
-Everything uses a **single fixed E-Ink Dark color palette**.
 
 ---
 

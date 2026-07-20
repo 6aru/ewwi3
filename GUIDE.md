@@ -509,7 +509,7 @@ or
 ```text
     "name": "discord"
 ```
-> To ~/.config/eww/apps.json
+> To add/ulter applications check ~/.config/eww/apps.json
 
 Current dock applications
 

@@ -166,9 +166,9 @@ bindsym $mod+b       exec firefox-esr
 bindsym $mod+d       exec --no-startup-id ~/.config/rofi/launchers/type-6/launcher.sh
 
 # Screenshots
-bindsym --release Print          exec scrot ~/Pictures/Screenshots/screenshot_%Y%m%d_%H%M%S.png
-bindsym --release $mod+Shift+s   exec scrot -s ~/Pictures/Screenshots/screenshot_%Y%m%d_%H%M%S.png
-bindsym --release $mod+Shift+c   exec scrot -s /tmp/screenshot.png && xclip -selection clipboard -t image/png -i /tmp/screenshot.png
+bindsym --release Print          exec --no-startup-id scrot ~/Pictures/Screenshots/screenshot_%Y%m%d_%H%M%S.png
+bindsym --release $mod+Shift+s   exec --no-startup-id scrot -s ~/Pictures/Screenshots/screenshot_%Y%m%d_%H%M%S.png
+bindsym --release $mod+Shift+c   exec --no-startup-id scrot -s /tmp/screenshot.png && xclip -selection clipboard -t image/png -i /tmp/screenshot.png
 
 # Audio Controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pamixer -i 1 --set-limit 100 && ~/.config/eww/scripts/volume-popup.sh

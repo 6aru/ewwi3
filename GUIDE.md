@@ -231,21 +231,15 @@ eww --version
 ---
 
 # 5. Install Autotiling
+
+Install dependencie.
 ```bash
 sudo apt install pipx -y
 ```
+Install. 
 ```bash
 pipx install autotiling
 ```
-
-Start automatically.
-
-Add to your i3 config.
-
-```bash
-exec --no-startup-id autotiling
-```
-
 ---
 
 # 6. Install Fonts
@@ -445,34 +439,30 @@ sudo apt install i3lock-color
 >If nothing is found, don't worry. Some Debian releases don't package it separately because Debian ships the upstream i3lock instead.
 
 >(Recommended)Build i3lock-color from source.
+Install dependencies.
 ```bash
 sudo apt install \
-    autoconf \
-    automake \
-    pkg-config \
-    libpam0g-dev \
-    libcairo2-dev \
-    libxcb1-dev \
-    libxcb-composite0-dev \
-    libxcb-xinerama0-dev \
-    libxcb-randr0-dev \
-    libxcb-image0-dev \
-    libxcb-util-dev \
-    libxcb-xkb-dev \
-    libxkbcommon-dev \
-    libxkbcommon-x11-dev \
-    libev-dev \
-    libjpeg-dev \
-    libgif-dev
+  autoconf gcc make pkg-config \
+  libpam0g-dev libcairo2-dev libfontconfig1-dev \
+  libxcb-composite0-dev libev-dev libx11-xcb-dev \
+  libxcb-xkb-dev libxcb-xinerama0-dev \
+  libxcb-randr0-dev libxcb-image0-dev \
+  libxcb-util0-dev libxcb-xrm-dev \
+  libxkbcommon-dev libxkbcommon-x11-dev \
+  libgif-dev/
+  libjpeg-dev git
 ```
+Clone.
 ```bash
 git clone https://github.com/Raymo111/i3lock-color.git
 cd i3lock-color
 ```
+Build.
 ```bash
 ./build.sh
 sudo ./install-i3lock-color.sh
 ```
+Verify.
 ```bash
 i3lock --version
 ```

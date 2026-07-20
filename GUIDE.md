@@ -159,12 +159,13 @@ Install Firefox ESR.
 ```bash
 sudo apt install firefox-esr
 ```
-
+```bash
+sudo apt install kitty
+```
 Install manually.
 
 - Brave
 - Ghostty
-- LocalSend
 - Discord
 - rmpc
 
@@ -180,13 +181,25 @@ Install dependencies.
 
 ```bash
 sudo apt install \
-cargo \
-rustc \
-libgtk-3-dev \
-libglib2.0-dev \
-libgdk-pixbuf-2.0-dev \
-libpango1.0-dev \
-libcairo2-dev
+    build-essential \
+    pkg-config \
+    rustc \
+    cargo \
+    libgtk-3-dev \
+    libglib2.0-dev \
+    libgdk-pixbuf-2.0-dev \
+    libcairo2-dev \
+    libpango1.0-dev \
+    libgtk-layer-shell-dev \
+    libdbusmenu-glib-dev \
+    libdbusmenu-gtk3-dev \
+    libx11-dev \
+    libxrandr-dev \
+    libxinerama-dev \
+    libxi-dev \
+    libxext-dev \
+    libxcb1-dev \
+    libxcb-randr0-dev
 ```
 
 Clone.

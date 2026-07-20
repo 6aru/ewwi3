@@ -1,4 +1,3 @@
-```markdown
 # Eww i3 Dotfiles (E-Ink Dark)
 
 A clean, minimal, and distraction-free i3 desktop environment inspired by the simplicity of e-ink displays[cite: 5]. This project provides a modern i3 desktop while remaining lightweight, readable, and easy to customize[cite: 5]. 
@@ -507,8 +506,3 @@ The system provides a workflow that remains:
 
 * **Easy to Maintain:** No overly complex configuration abstractions, ideal for beginners, and built with solid Debian principles in mind.
 
-
-
-```
-
-```

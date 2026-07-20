@@ -231,9 +231,11 @@ eww --version
 ---
 
 # 5. Install Autotiling
-
 ```bash
-pip3 install --user autotiling
+sudo apt install pipx -y
+```
+```bash
+pipx install autotiling
 ```
 
 Start automatically.
@@ -434,8 +436,51 @@ dunst &
 Uses
 
 ```
-i3lock
+i3lock-colors
 ```
+>Try
+```bash
+sudo apt install i3lock-color
+```
+>If nothing is found, don't worry. Some Debian releases don't package it separately because Debian ships the upstream i3lock instead.
+
+>(Recommended)Build i3lock-color from source.
+```bash
+sudo apt install \
+    autoconf \
+    automake \
+    pkg-config \
+    libpam0g-dev \
+    libcairo2-dev \
+    libxcb1-dev \
+    libxcb-composite0-dev \
+    libxcb-xinerama0-dev \
+    libxcb-randr0-dev \
+    libxcb-image0-dev \
+    libxcb-util-dev \
+    libxcb-xkb-dev \
+    libxkbcommon-dev \
+    libxkbcommon-x11-dev \
+    libev-dev \
+    libjpeg-dev \
+    libgif-dev
+```
+```bash
+git clone https://github.com/Raymo111/i3lock-color.git
+```
+```bash
+cd i3lock-color
+```
+```bash
+./build.sh
+```
+```bash
+sudo ./install-i3lock-color.sh
+```
+```bash
+i3lock --version
+```
+> should report i3lock-color, and your existing lock.sh should work.
 
 Shortcut
 

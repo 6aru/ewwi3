@@ -457,7 +457,7 @@ systemctl --user enable --now mpDris2
 systemctl --user enable --now mpd
 ```
 ----
-# 15. Weather Widget
+# 13. Weather Widget
 
 Uses
 
@@ -478,7 +478,7 @@ Configure
 
 ---
 
-# 16. Screenshots
+# 14. Screenshots
 
 Uses
 
@@ -491,21 +491,27 @@ Output directory
 ```
 ~/Pictures/Screenshots/
 ```
-
+>If Screenshots folder doesnt exit, create one.
+>
 ---
 
-# 17. Browser Integration
+# 15. Browser Integration to Dock
 
-The dock uses **Firefox ESR tabs** instead of desktop launchers.
+The dock currently just uses **Applications** instead of desktop launchers.
 
-Recommended pinned tabs
+Add desktop launchers
+>Examples:
+```text
+    "name": "org.telegram.desktop"
+```
+or 
+>Applications
+```text
+    "name": "discord"
+```
+> To ~/.config/eww/apps.json
 
-- YouTube
-- ChatGPT
-- Reddit
-- Crunchyroll
-
-Applications
+Current dock applications
 
 - Firefox ESR
 - Brave
@@ -515,7 +521,7 @@ Applications
 
 ---
 
-# 18. Directory Structure
+# 16. Directory Structure
 
 ```
  .config/
@@ -557,7 +563,7 @@ Applications
 
 ---
 
-# 20. First Boot Checklist
+# 17. First Boot Checklist
 
 - Install required packages
 - Build and install Eww

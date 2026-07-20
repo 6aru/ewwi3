@@ -390,27 +390,23 @@ Super + L
 
 # 9. Install Configuration
 
-Copy the repository's
+Copy the config/Dotfiles into your `~/.config` directory.
 
-```
-i3/
-```
-
-folder into
-
-```
-~/.config/
+```bash
+cp -r .config/* ~/.config/
 ```
 
-Final structure
-
+>Final Structure
 ```
-~/.config/i3
-~/.config/eww
-~/.config/rofi
-~/.config/dunst
-~/.config/picom
-~/.config/dunst
+config/
+├── dunst/
+├── eww/
+├── i3/
+├── picom/
+├── rofi/
+├── scripts/
+├── xsettingsd/
+├── wallpaper/
 ```
 
 ---
@@ -453,26 +449,14 @@ Install
 - Pamixer
 - Playerctl
 
----
-
-# 13. Notifications
-
-Notification daemon
-
-```
-Dunst
-```
-
-Restart
-
+>Start Mpd & mpDris2 for music widget to work.
 ```bash
-killall dunst
-
-dunst &
+systemctl --user enable --now mpDris2
 ```
-
----
-
+```bash
+systemctl --user enable --now mpd
+```
+----
 # 15. Weather Widget
 
 Uses
@@ -613,6 +597,29 @@ Applications
 - JetBrains Mono Nerd Font
 
 ---
+
+## Repo Structure
+
+```text
+ewwi3/
+├── .config
+│   ├── dunst
+│   ├── eww
+│   ├── i3
+│   ├── picom
+│   ├── rofi
+│   ├── scripts
+│   └── xsettingsd
+├── wallpaper
+│   └── eink.jpg
+├── fonts/
+│   ├── GrapeNuts-Regular.ttf
+│   ├── Icomoon-Feather.ttf
+│   ├── Iosevka-Nerd-Font-Complete.ttf
+│   └── JetBrains-Mono-Nerd-Font-Complete.ttf
+├── GUIDE.md
+└── README.md
+```
 
 # Philosophy
 

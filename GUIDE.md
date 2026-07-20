@@ -436,7 +436,7 @@ dunst &
 Uses
 
 ```
-i3lock-colors
+i3lock-color
 ```
 >Try
 ```bash
@@ -467,20 +467,16 @@ sudo apt install \
 ```
 ```bash
 git clone https://github.com/Raymo111/i3lock-color.git
-```
-```bash
 cd i3lock-color
 ```
 ```bash
 ./build.sh
-```
-```bash
 sudo ./install-i3lock-color.sh
 ```
 ```bash
 i3lock --version
 ```
-> should report i3lock-color, and your existing lock.sh should work.
+> should report i3lock-color.
 
 Shortcut
 
@@ -543,6 +539,7 @@ Applications
 - Firefox ESR
 - Brave
 - Ghostty
+- Kitty
 - Thunar
 - LocalSend
 
